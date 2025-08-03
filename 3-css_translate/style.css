@@ -11,5 +11,5 @@ transition: transform 7s;
 }
 
 img:hover {
-  transform: translateZ(300px);
+  transform: rotateY(360deg);
 }
