@@ -15,7 +15,8 @@ body > * {
 .btn-4,
 .btn-5,
 .btn-6,
-.btn-7 {
+.btn-7,
+.btn-8 {
   text-decoration: none;
   color: black;
   font-family: sans-serif;
@@ -191,3 +192,5 @@ body > * {
 .btn-7:hover::after {
   transform: translate(0, 0);
 }
+
+
