@@ -1,11 +1,18 @@
 body {
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  
 }
 
-.btn-1 {
+body > * {
+margin-bottom: 10px;
+}
+
+.btn-1,
+.btn-2 {
   text-decoration: none;
   color: black;
   font-family: sans-serif;
@@ -13,7 +20,7 @@ body {
   border: 5px solid black;
   padding: 40px 80px;
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .btn-1::before {
@@ -32,4 +39,8 @@ body {
 
 .btn-1:hover::before {    
   transform: rotate(0);
+}
+
+.btn-2::before {
+  display: ;
 }
