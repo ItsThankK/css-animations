@@ -50,3 +50,7 @@ button:hover {
 #ease-in-out {
   transition-timing-function: ease-in-out;
 }
+
+.move:hover {
+  transform: translate(900px, 0);
+}
