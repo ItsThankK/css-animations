@@ -13,6 +13,7 @@ body {
   border: 5px solid black;
   padding: 40px 80px;
   position: relative;
+  overflow: hidden;
 }
 
 .btn-1::before {
@@ -24,4 +25,11 @@ body {
   height: 100%;
   width: 100%;
   z-index: -1;
+  transform-origin: bottom left;
+  transform: rotate(-90deg);
+  transition: transform 2s;
+}
+
+.btn-1:hover::before {    
+  transform: rotate(0);
 }
