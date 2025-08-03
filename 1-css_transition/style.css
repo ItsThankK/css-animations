@@ -11,6 +11,8 @@ button {
 
 button:hover {
   background-color: green;
+  color: brown;
+  width: 500px;
 }
 
 .container {
