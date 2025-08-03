@@ -13,7 +13,8 @@ margin-bottom: 20px;
 .btn-2,
 .btn-3,
 .btn-4,
-.btn-5 {
+.btn-5,
+.btn-6 {
   text-decoration: none;
   color: black;
   font-family: sans-serif;
@@ -125,6 +126,10 @@ margin-bottom: 20px;
 
 .btn-5:hover::before {
   transform: translateY(0);
+}
+
+.btn-6 {
+  
 }
 
 
