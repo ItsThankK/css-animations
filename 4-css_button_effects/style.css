@@ -4,11 +4,10 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
 }
 
 body > * {
-margin-bottom: 10px;
+margin-bottom: 20px;
 }
 
 .btn-1,
@@ -101,5 +100,10 @@ margin-bottom: 10px;
 }
 
 
+.btn-4:hover {
+    font-weight: 900;
+    border: 7px solid inherit;
+    letter-spacing: 10px;
+}
 
 
