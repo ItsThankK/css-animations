@@ -1,5 +1,4 @@
 body {
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -13,7 +12,8 @@ margin-bottom: 20px;
 .btn-1,
 .btn-2,
 .btn-3,
-.btn-4 {
+.btn-4,
+.btn-5 {
   text-decoration: none;
   color: black;
   font-family: sans-serif;
@@ -104,6 +104,27 @@ margin-bottom: 20px;
     font-weight: 900;
     border: 7px solid inherit;
     letter-spacing: 10px;
+}
+
+.btn-5::before {
+  content: "Yeah!";
+  position: absolute;
+  top: 0;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-100%);
+  background-color: red;
+  color: white;
+  transition: all .2s;
+  z-index: 1;
+}
+
+.btn-5:hover::before {
+  transform: translateY(0);
 }
 
 
