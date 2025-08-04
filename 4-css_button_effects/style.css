@@ -32,7 +32,7 @@ body > * {
   border: 5px solid purple;
   padding: 40px 80px;
   position: relative;
-  /* overflow: hidden; */
+  overflow: hidden;
   transition: all 1s;
 }
 
@@ -668,7 +668,6 @@ body > * {
 }
 
 .btn-18 {
-  /* background-color: red; */
   border: none;
   position: relative;
   width: 400px;
@@ -677,9 +676,10 @@ body > * {
   text-decoration: none;
   line-height: 120px;
   text-align: center;
-  color: white;
+  color: violet;
   font-style: 45px;
   letter-spacing: 15px;
+  overflow: hidden;
 }
 
 .btn-18::before {
@@ -689,7 +689,7 @@ body > * {
   left: -100%;
   width: 100%;
   height: 4px;
-  background-color: green;
+  background-color: violet;
   transition: all 0.5s;
 }
 
@@ -704,7 +704,7 @@ body > * {
   right: -100%;
   width: 100%;
   height: 4px;
-  background-color: green;
+  background-color: violet;
   transition: all 0.5s;
 }
 
