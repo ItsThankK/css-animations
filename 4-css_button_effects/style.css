@@ -473,7 +473,7 @@ body > * {
   letter-spacing: 3px;
   padding: 25px 50px;
   border: 3px solid #fbb93b;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 .btn-14::before,
@@ -531,3 +531,16 @@ body > * {
   right: 0;
 }
 
+.btn-15 {
+  color: yellow;
+  border: 2px solid blue;
+}
+
+.btn-15::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
