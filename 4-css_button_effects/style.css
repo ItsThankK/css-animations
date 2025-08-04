@@ -582,5 +582,35 @@ body > * {
   background-color: orange;
   color: white;
   font-size: 22px;
+  cursor: pointer;
+  position: relative;
 }
+
+.btn-16::before {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: -5px;
+  left: -5px;
+  background-color: red;
+  border-top: 2px solid orange;
+  border-left: 2px solid orange;
+  transition: all .25s;
+}
+
+.btn-16::after {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  bottom: -5px;
+  right: -5px;
+  background-color: red;
+  border-right: 2px solid orange;
+  border-bottom: 2px solid orange;
+  transition: all .25s;
+}
+
+
 
