@@ -726,3 +726,18 @@ body > * {
 .btn-18:hover span::before {
   top: 0;
 }
+
+.btn-18 span::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  right: 0;
+  width: 4px;
+  height: 100%;
+  background-color: violet;
+  transition: all 0.5s;
+}
+
+.btn-18:hover span::after {
+  top: 0;
+}
