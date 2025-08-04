@@ -741,3 +741,28 @@ body > * {
 .btn-18:hover span::after {
   top: 0;
 }
+
+.btn-19 {
+  position: relative;
+  width: 160px;
+  height: 60px;
+  text-transform: uppercase;
+  text-decoration: none;  
+  line-height: 60px;
+  text-align: center;
+  color: black;
+  font-style: 25px;
+  transition: all .2s;
+  /* overflow: hidden; */
+}
+
+.btn-19 span {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  border: 2px solid black;
+}
+
