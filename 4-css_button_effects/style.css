@@ -490,7 +490,17 @@ body > * {
   left: -25%;
 }
 
+.btn-14:hover:before {
+  top: 0;
+  left: 0;
+}
+
 .btn-14::after {
   top: -100%;
   left: 25%;
+}
+
+.btn-14:hover::after {
+  top: 0%;
+  
 }
