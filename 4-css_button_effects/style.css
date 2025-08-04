@@ -25,6 +25,7 @@ body > * {
 .btn-14,
 .btn-15 {
   text-decoration: none;
+  text-transform: uppercase;
   color: black;
   font-family: sans-serif;
   font-size: 45px;
@@ -575,4 +576,11 @@ body > * {
   transform: rotatex(180deg);
 }
 
+.btn-16 {
+  border: none;
+  padding: 12px 40px;
+  background-color: orange;
+  color: white;
+  font-size: 22px;
+}
 
