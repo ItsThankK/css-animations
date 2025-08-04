@@ -747,13 +747,13 @@ body > * {
   width: 160px;
   height: 60px;
   text-transform: uppercase;
-  text-decoration: none;  
+  text-decoration: none;
   line-height: 60px;
   text-align: center;
   color: black;
   font-style: 25px;
-  transition: all .2s;
-  /* overflow: hidden; */
+  transition: all 0.2s;
+  overflow: hidden;
 }
 
 .btn-19 span {
@@ -763,6 +763,26 @@ body > * {
   top: 0;
   left: 0;
   background-color: transparent;
+  z-index: -1;
   border: 2px solid black;
 }
 
+.btn-19 span::before {
+  content: "";
+  position: absolute;
+  width: 8%;
+  height: 500%;
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-60deg);
+  transition: all 0.5s;
+}
+.btn-19:hover {
+  color: white;
+}
+.btn-19:hover span::before {
+  width: 100%;
+  background-color: red;
+  transform: translate(-50%, -50%) rotate(60deg);
+}
