@@ -22,7 +22,8 @@ body > * {
 .btn-11,
 .btn-12,
 .btn-13,
-.btn-14 {
+.btn-14,
+.btn-15 {
   text-decoration: none;
   color: black;
   font-family: sans-serif;
@@ -30,7 +31,7 @@ body > * {
   border: 5px solid purple;
   padding: 40px 80px;
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
   transition: all 1s;
 }
 
@@ -529,3 +530,4 @@ body > * {
 .btn-14:hover span::after {
   right: 0;
 }
+
