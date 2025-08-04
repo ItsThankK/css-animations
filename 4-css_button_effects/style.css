@@ -638,4 +638,31 @@ body > * {
   background-color: black;
   z-index: -1;
   opacity: 0;
+  transition: all 0.8s;
+}
+
+.btn-17 span {
+  color: transparent;
+  position: relative;
+}
+
+.btn-17 span::before {
+  content: "B";
+  color: black;
+  position: absolute;
+  transition: all .2s;
+}
+
+.btn-17:hover {
+  color: white;
+}
+
+.btn-17:hover span::before {
+  color: white;
+  transform: scale(2) rotate(360deg) translate(-20%, 0);
+}
+
+.btn-17:hover::before {
+  opacity: 1;
+  transform: rotate(15deg);
 }
