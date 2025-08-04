@@ -466,4 +466,22 @@ body > * {
   color: #272727;
 }
 
+.btn-14 {
+  text-transform: uppercase;
+  color: #fbb93b;
+  letter-spacing: 3px;
+  padding: 25px 50px;
+  border: 3px solid #fbb93b;
+  transition: all .5s;
+}
 
+.btn-14::before,
+.btn-14::after {
+  content: "";
+  position: absolute;
+  background-color: yellow;
+  top: 0;
+  width: 25%;
+  height: 100%;
+  transition: all 0.5s;
+}
