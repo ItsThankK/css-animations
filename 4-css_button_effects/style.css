@@ -722,3 +722,7 @@ body > * {
   background-color: violet;
   transition: all 0.5s;
 }
+
+.btn-18:hover span::before {
+  top: 0;
+}
