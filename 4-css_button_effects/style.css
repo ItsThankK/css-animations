@@ -683,11 +683,16 @@ body > * {
 }
 
 .btn-18::before {
-  content: "jdjdjdj";
+  content: "";
   position: absolute;
   top: 0;
-  left: 0;
+  left: -100%;
   width: 100%;
   height: 4px;
   background-color: green;
+  transition: all .5s;
+}
+
+.btn-18:hover::before {
+  left: 0;
 }
