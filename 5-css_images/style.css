@@ -1,22 +1,27 @@
 body {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 20px;
   font-family: sans-serif;
 }
 
-.container {
+.container,
+.container-2 {
   width: 500px;
   height: 500px;
   position: relative;
   overflow: hidden;
 }
 
-.container img {
+.container img,
+.container-2 img {
   width: 100%;
 }
 
-.container .caption {
+.container .caption,
+.container-2 .caption {
   position: absolute;
   top: 0;
   left: 0;
@@ -32,12 +37,14 @@ body {
   background: rgba(0,0,0,0);
 }
 
-.container .caption h1 {
+.container .caption h1,
+.container-2 .caption h1  {
   text-transform: uppercase;
   margin: 0;
 }
 
-.container .caption p {
+.container .caption p,
+.container-2 .caption p {
   font-size: 18px;
   text-transform: capitalize;
 }
