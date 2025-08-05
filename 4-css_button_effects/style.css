@@ -792,12 +792,11 @@ body > * {
   text-decoration: none;
   font-size: 28px;
   font-weight: 700;
-  color: blue;
+  color: wheat;
   position: relative;
   letter-spacing: 7px;
   padding: 18px 30px;
   background: transparent;
-  border: #20caff 2px solid;
 }
 
 .btn-20::before {
@@ -810,4 +809,11 @@ body > * {
   z-index: -1;
   background-color: red;
   transform: skewX(30deg);
+  transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.btn-20:hover:before {
+  transform: skewX(0);
+  left: 50%;
+  top: 0;
 }
