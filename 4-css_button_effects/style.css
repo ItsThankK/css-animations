@@ -817,3 +817,16 @@ body > * {
   left: 50%;
   top: 0;
 }
+
+.btn-20::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  right: -1%;
+  bottom: -5px;
+  z-index: -1;
+  background-color: blue;
+  transform: skewX(30deg);
+  transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
