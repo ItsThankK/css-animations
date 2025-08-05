@@ -935,4 +935,18 @@ body {
 
   display: flex;
   gap: 150px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.container a {
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 20px 35px;
+  border: 2px solid;
+  color: blue;
+  font-size: 20px;
+  letter-spacing: 4px;
+  transition: all .5s;
 }
