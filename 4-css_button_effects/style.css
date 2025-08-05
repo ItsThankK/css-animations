@@ -1056,6 +1056,13 @@ body {
   justify-content: space-around;
   align-items: center;
   background: navy;
-  width: 600px;
+  width: 900px;
   height: 200px;
+}
+
+.container-2 .btn {
+  position: absolute;
+  width: 155px;
+  height: 50px;
+  margin: 200px;
 }
