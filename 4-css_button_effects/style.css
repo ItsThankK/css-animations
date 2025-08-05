@@ -877,12 +877,16 @@ body > * {
 }
 
 .btn-22 {
-text-decoration: none;
-position: relative;
-width: 250px;
-height: 80px;
-text-align: center;
-line-height: 80px;
-color: #250e74;
-border: 4px solid #250e74;
+  text-decoration: none;
+  position: relative;
+  width: 250px;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  color: #250e74;
+  border: 4px solid #250e74;
+  font-size: 24px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  transition: all 0.5s;
 }
