@@ -1086,6 +1086,7 @@ body {
   font-weight: 400;
   text-decoration: none;
   transition: 0.5s;
+  overflow: hidden;
 }
 
 .container-2 .btn:hover a {
@@ -1102,4 +1103,11 @@ body {
   background: linear-gradient(to left, rgba(255, 255, 255, 0.6), transparent);
   transform: skewX(45deg);
   transition: 0.5s 0.5s;
+}
+
+
+.container-2 .btn a:hover::before {
+  transform: skewX(-45deg) translateX(200%);
+  transition-delay: 0s;
+
 }
