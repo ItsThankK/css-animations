@@ -974,3 +974,9 @@ body {
   width: 4px;
   height: 40px;
 }
+
+.container a span:nth-child(1) {
+  top: calc(50% - 2px);
+  left: -50px;
+  transition: all .5s ease-in-out;
+}
