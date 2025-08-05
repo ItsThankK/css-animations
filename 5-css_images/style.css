@@ -10,3 +10,7 @@ body {
   height: 500px;
   position: relative;
 }
+
+.container img {
+  width: 100%;
+}
