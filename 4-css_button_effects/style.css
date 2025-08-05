@@ -1050,4 +1050,12 @@ body {
    box-shadow: 0 0 10px blue, 0 0 10px blue, 0 0 10px blue;
 }
 
-
+.container-2 {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: navy;
+  width: 600px;
+  height: 200px;
+}
