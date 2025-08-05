@@ -8,7 +8,8 @@ body {
 }
 
 .container,
-.container-2 {
+.container-2,
+.container-3 {
   width: 500px;
   height: 500px;
   position: relative;
@@ -16,13 +17,15 @@ body {
 }
 
 .container img,
-.container-2 img {
+.container-2 img,
+.container-3 img {
   width: 100%;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 .container .caption,
-.container-2 .caption {
+.container-2 .caption,
+.container-3 .caption {
   position: absolute;
   top: 0;
   left: 0;
@@ -34,19 +37,21 @@ body {
   align-items: center;
   color: white;
   opacity: 0;
-  transition: all .5s;
-  background: rgba(0,0,0,0);
-  transition: all .5s;
+  transition: all 0.5s;
+  background: rgba(0, 0, 0, 0);
+  transition: all 0.5s;
 }
 
 .container .caption h1,
-.container-2 .caption h1  {
+.container-2 .caption h1,
+.container-3 .caption h1 {
   text-transform: uppercase;
   margin: 0;
 }
 
 .container .caption p,
-.container-2 .caption p {
+.container-2 .caption p,
+.container-3 .caption p {
   font-size: 18px;
   text-transform: capitalize;
 }
@@ -54,7 +59,7 @@ body {
 /*  */
 .container:hover .caption {
   opacity: 1;
-  background: rgba(0,0,0,0.5);
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .container:hover img {
@@ -66,7 +71,7 @@ body {
 }
 
 .container-2:hover .caption {
-  background: rgba(0,0,0,0.5);
+  background: rgba(0, 0, 0, 0.5);
   transform: translateX(0);
   opacity: 1;
 }
