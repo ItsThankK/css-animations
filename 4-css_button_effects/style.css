@@ -901,4 +901,7 @@ body > * {
   border-top: 40px solid red;
   border-bottom: 40px solid green;
   border-right: 40px solid transparent;
+  transition: all .5s;
+  z-index: -1;
+  transform: translateX(-100%);
 }
