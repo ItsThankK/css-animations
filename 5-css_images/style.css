@@ -27,3 +27,8 @@ body {
   align-items: center;
   color: white;
 }
+
+.container .caption h1 {
+  text-transform: uppercase;
+  margin: 0;
+}
