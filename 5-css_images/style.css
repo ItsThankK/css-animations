@@ -95,6 +95,17 @@ body {
 }
 
 .container-3:hover img {
-  transform: translateX(100%)
+  transform: translateX(100%);
 }
 
+.container-4 .caption {
+  top: 70%;
+  bottom: 0;
+  background-color: black;
+  height: 30%;
+  transform: translateY(100%);
+}
+
+.container-4:hover .caption {
+  transform: translateY(0);
+}
