@@ -988,3 +988,45 @@ body {
   transform: scaleX(0);
   transition-delay: 0s;
 }
+
+/* .container a span:nth-child(2) {
+  top: calc(50% - 2px);
+  left: -50px;
+  transition: all 0.5s ease-in-out;
+  transform-origin: left;
+  transition-delay: 0.25s;
+}
+
+.container:hover a span:nth-child(2) {
+  left: 50%;
+  transform: scaleX(0);
+  transition-delay: 0s;
+} */
+
+.container a span:nth-child(3) {
+  top: calc(50% - 2px);
+  right: -50px;
+  transition: all 0.5s ease-in-out;
+  transform-origin: right;
+  transition-delay: 0.25s;
+}
+
+.container:hover a span:nth-child(3) {
+  right: 50%;
+  transform: scaleX(0);
+  transition-delay: 0s;
+}
+
+/* .container a span:nth-child(4) {
+  top: calc(50% - 2px);
+  left: -50px;
+  transition: all 0.5s ease-in-out;
+  transform-origin: left;
+  transition-delay: 0.25s;
+}
+
+.container:hover a span:nth-child(4) {
+  left: 50%;
+  transform: scaleX(0);
+  transition-delay: 0s;
+} */
