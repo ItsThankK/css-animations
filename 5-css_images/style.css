@@ -32,3 +32,8 @@ body {
   text-transform: uppercase;
   margin: 0;
 }
+
+.container .caption p {
+  font-size: 18px;
+  text-transform: capitalize;
+}
