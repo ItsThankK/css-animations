@@ -26,6 +26,7 @@ body {
   justify-content: center;
   align-items: center;
   color: white;
+  opacity: 0;
 }
 
 .container .caption h1 {
@@ -36,4 +37,8 @@ body {
 .container .caption p {
   font-size: 18px;
   text-transform: capitalize;
+}
+
+.container:hover .caption {
+  opacity: 1;
 }
