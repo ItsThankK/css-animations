@@ -848,6 +848,16 @@ body > * {
   transition: all .2s;
 }
 
+.btn-21:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 10px rgba(0,0,0, .8);
+}
+
+.btn-21:active {
+  transform: translateY(4px);
+  box-shadow: 0 10px 10px rgba(0,0,0, .5);
+}
+
 .btn-21::before {
   content: "";
   position: absolute;
