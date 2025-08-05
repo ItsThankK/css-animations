@@ -925,3 +925,7 @@ body > * {
   z-index: -1;
   transform: translateX(100%);
 }
+
+.btn-22:hover::after {
+  transform: translateX(0);
+}
