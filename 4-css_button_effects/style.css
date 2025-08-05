@@ -837,4 +837,15 @@ body > * {
   bottom: 0;
 }
 
+.btn-21 {
+  position: relative;
+  text-decoration: none;
+  padding: 25px 50px;
+  background-color: navy;
+  color: white;
+  border-radius: 100px;
+  font-size: 24px;
+  transition: all .2s;
+}
+
 
