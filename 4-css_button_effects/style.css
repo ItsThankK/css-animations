@@ -908,7 +908,6 @@ body {
   transform: translateX(0);
 }
 
-
 .btn-22::after {
   content: "";
   position: absolute;
@@ -950,7 +949,7 @@ body {
   color: blue;
   font-size: 20px;
   letter-spacing: 4px;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 .container a:hover {
@@ -961,6 +960,7 @@ body {
 .container a span {
   position: absolute;
   background: blue;
+  box-shadow: 0 0 10px blue, 0 0 20px blue, 0 0 30px blue, 0 0 50px blue, 0 0 100px blue;
 }
 
 .container a span:nth-child(1),
@@ -978,5 +978,13 @@ body {
 .container a span:nth-child(1) {
   top: calc(50% - 2px);
   left: -50px;
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  transform-origin: left;
+  transition-delay: 0.25s;
+}
+
+.container:hover a span:nth-child(1) {
+  left: 50%;
+  transform: scaleX(0);
+  transition-delay: 0s;
 }
