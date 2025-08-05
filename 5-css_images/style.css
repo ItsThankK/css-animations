@@ -25,7 +25,8 @@ body {
 
 .container .caption,
 .container-2 .caption,
-.container-3 .caption {
+.container-3 .caption,
+.container-4 .caption {
   position: absolute;
   top: 0;
   left: 0;
@@ -44,14 +45,16 @@ body {
 
 .container .caption h1,
 .container-2 .caption h1,
-.container-3 .caption h1 {
+.container-3 .caption h1,
+.container-4 .caption h1 {
   text-transform: uppercase;
   margin: 0;
 }
 
 .container .caption p,
 .container-2 .caption p,
-.container-3 .caption p {
+.container-3 .caption p,
+.container-4 .caption p {
   font-size: 18px;
   text-transform: capitalize;
 }
