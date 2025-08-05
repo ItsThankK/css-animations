@@ -797,4 +797,17 @@ body > * {
   letter-spacing: 7px;
   padding: 18px 30px;
   background: transparent;
+  border: #20caff 2px solid;
+}
+
+.btn-20::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  left: -1%;
+  top: -5px;
+  z-index: -1;
+  background-color: red;
+  transform: skewX(30deg);
 }
