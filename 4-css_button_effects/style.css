@@ -830,3 +830,9 @@ body > * {
   transform: skewX(30deg);
   transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
+
+.btn-20:hover::after {
+  transform: skewX(0);
+  right: 50%;
+  bottom: 0;
+}
