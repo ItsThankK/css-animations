@@ -855,10 +855,13 @@ body > * {
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: -1 ;
+  z-index: -1;
   background-color: navy;
   border-radius: 100px;
-  transition: all .2s;
+  transition: all 1s;
 }
 
-
+.btn-21:hover::before {
+  transform: scale(1.4, 1.6);
+  opacity: 0;
+}
