@@ -909,3 +909,19 @@ body > * {
 .btn-22:hover::before {
   transform: translateX(0);
 }
+
+
+.btn-22::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-top: 40px solid purple;
+  border-bottom: 40px solid purple;
+  border-left: 40px solid transparent;
+  transition: all 0.5s;
+  z-index: -1;
+  transform: translateX(100%);
+}
