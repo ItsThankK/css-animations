@@ -1088,4 +1088,6 @@ body {
   transition: 0.5s;
 }
 
-
+.container-2 .btn:hover a {
+  letter-spacing: 3px;
+}
