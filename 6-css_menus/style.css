@@ -66,4 +66,5 @@ body {
 
 .container-1 ul li a:hover::after {
   transform: scaleX(1);
+  
 }
