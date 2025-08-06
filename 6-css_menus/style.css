@@ -73,18 +73,23 @@ body {
 }
 
 .container-2 {
+  background-color: grey;
 }
 
 .container-2 ul li a {
   color: #272727;
   text-transform: uppercase;
-  transition: all 0.5s;
+  transition: all 0.3s;
+}
+
+.container-2 ul li a:hover {
+  background-color: #e91e63;
 }
 
 .container-2 ul li a::before {
   content: "";
   position: absolute;
-  bottom: 12px;
+  bottom: 14px;
   left: 12px;
   width: 12px;
   height: 12px;
@@ -108,13 +113,13 @@ body {
 }
 
 .container-2 ul li a:hover:before {
-  bottom: -8pxpx;
-  left: -8px;
+  bottom: -4px;
+  left: -4px;
   opacity: 1;
 }
 
 .container-2 ul li a:hover::after {
-  top: -8pxpx;
-  right: -8px;
+  top: -4px;
+  right: -4px;
   opacity: 1;
 }
