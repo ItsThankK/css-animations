@@ -89,7 +89,7 @@ body {
   left: 0;
   width: 12px;
   height: 12px;
-  background-color: blue;
   border: 3px solid #e91e63;
+  border-width: 0 0 3px 3px;
 }
 
