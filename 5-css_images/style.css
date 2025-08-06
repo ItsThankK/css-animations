@@ -145,3 +145,16 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.fig h3,
+.fig h5 {
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.fig h3 {
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
