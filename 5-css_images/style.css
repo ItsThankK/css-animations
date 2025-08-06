@@ -183,7 +183,8 @@ body {
 }
 
 .container-6,
-.container-7 {
+.container-7,
+.caption-8 {
   width: 450px;
   height: 300px;
   position: relative;
@@ -235,7 +236,7 @@ body {
   margin-top: 20px;
   background-color: rgba(0, 0, 0, 0.8);
   transform: translate(200px, -200px);
-  transition: all .25s;
+  transition: all 0.25s;
 }
 
 .container-6:hover .caption h2,
@@ -249,7 +250,7 @@ body {
   width: 80%;
   align-self: center;
   text-align: center;
-  transition: all .25s;
+  transition: all 0.25s;
   transform: translate(-500px, 500px);
 }
 
@@ -267,7 +268,7 @@ body {
   padding: 15px;
   margin-bottom: 20px;
   align-self: center;
-  transition: all .25s;
+  transition: all 0.25s;
   transform: translateY(200px);
 }
 
@@ -283,7 +284,7 @@ body {
 
 .container-7 img {
   width: 100%;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 .container-7:hover img {
@@ -293,13 +294,61 @@ body {
 .container-7::before {
   background-color: #006266;
   transform: scale(0) rotate(-180deg);
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 .container-7:hover::before {
   transform: scale(1) rotate(180deg);
 }
 
+.container-8 {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  /* overflow: hidden; */
+}
 
+.container-8 img {
+  width: 100%;
+}
 
+.container-8 .caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
 
+.container-8 .caption h2 {
+  text-align: center;
+  width: 100%;
+  font-size: 17px;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+.container-8 .caption p {
+  font-size: 16px;
+  width: 80%;
+  align-self: center;
+  text-align: center;
+  transition: all 0.25s;
+  color: white;
+}
+
+.container-8 .caption a {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  width: 100px;
+  padding: 15px;
+  margin-bottom: 20px;
+  align-self: center;
+  transition: all 0.25s;
+}
