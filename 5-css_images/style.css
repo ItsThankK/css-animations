@@ -120,4 +120,8 @@ body {
   position: relative;
 }
 
+.fig img {
+  width: 100%;
+}
+
 
