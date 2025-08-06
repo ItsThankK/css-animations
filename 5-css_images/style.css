@@ -187,6 +187,7 @@ body {
   height: 300px;
   position: relative;
   flex: 1;
+  overflow: hidden;
 }
 
 .container-6 img {
@@ -202,5 +203,10 @@ body {
   height: 100%;
   background-color: #2d3436;
   opacity: 0.5;
-  transition: all 0.25s;
+  transition: all 1s;
+  transform: translate(550px, 300px) rotate(45deg);
+}
+
+.container-6:hover::before {
+  transform: translate(0, 0) rotate(45deg) scale(2);
 }
