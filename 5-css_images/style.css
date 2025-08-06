@@ -245,7 +245,7 @@ body {
   align-self: center;
   text-align: center;
   transition: all .25s;
-  transform: translate(-200px, 200px);
+  transform: translate(-500px, 500px);
 }
 
 .container-6:hover .caption p {
@@ -261,4 +261,9 @@ body {
   margin-bottom: 20px;
   align-self: center;
   transition: all .25s;
+  transform: translateY(200px);
+}
+
+.container-6:hover .caption a {
+  transform: translateY(0);
 }
