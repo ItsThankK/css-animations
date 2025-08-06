@@ -136,7 +136,7 @@ body {
   opacity: 0.5;
   transform: translateY(100%);
   transition: all .5s;
-  
+  transition-delay: 0.25s;
 }
 
 .fig .caption {
@@ -169,5 +169,6 @@ body {
 
 .fig:hover::before {
   transform: translateY(0);
+  transition-delay: 0s;
 }
 
