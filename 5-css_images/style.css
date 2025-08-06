@@ -224,3 +224,14 @@ body {
   color: white;
   text-transform: uppercase;
 }
+
+.container-6 .caption h2 {
+  text-align: center;
+  font-size: 17px;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  transform: translate(200px, -200px);
+}
+
+
