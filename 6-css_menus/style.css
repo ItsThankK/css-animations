@@ -79,11 +79,12 @@ body {
 .container-2 ul li a {
   color: #272727;
   text-transform: uppercase;
-  transition: all 0.3s;
+  transition: all 1s;
 }
 
 .container-2 ul li a:hover {
   background-color: #e91e63;
+  color: white;
 }
 
 .container-2 ul li a::before {
@@ -96,7 +97,7 @@ body {
   border: 3px solid #e91e63;
   border-width: 0 0 3px 3px;
   opacity: 0;
-  transition: all 0.3 s;
+  transition: all 1s;
 }
 
 .container-2 ul li a::after {
@@ -109,7 +110,7 @@ body {
   border: 3px solid #e91e63;
   border-width: 3px 3px 0 0;
   opacity: 0;
-    transition: all .3s;
+    transition: all 1s;
 }
 
 .container-2 ul li a:hover:before {
