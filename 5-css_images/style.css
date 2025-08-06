@@ -251,3 +251,14 @@ body {
 .container-6:hover .caption p {
   transform: translate(0, 0);
 }
+
+.container-6 .caption a {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  width: 100px;
+  padding: 15px;
+  margin-bottom: 20px;
+  align-self: center;
+  transition: all .25s;
+}
