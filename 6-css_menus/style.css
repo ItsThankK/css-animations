@@ -43,6 +43,7 @@ body {
   height: 2px;
   background-color: #3d3d3d;
   transform: scaleX(0);
+  transform-origin: left;
   transition: all 0.5s;
 }
 
