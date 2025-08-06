@@ -39,7 +39,7 @@ body {
   justify-content: center;
   align-items: center;
   color: white;
-  /* opacity: 0; */
+  opacity: 0;
   transition: all 0.5s;
   background: rgba(0, 0, 0, 0);
   transition: all 0.5s;
@@ -92,6 +92,7 @@ body {
 
 .container-3:hover .caption {
   transform: translateX(0);
+  opacity: 1;
 }
 
 .container-3:hover img {
@@ -108,4 +109,5 @@ body {
 
 .container-4:hover .caption {
   transform: translateY(0);
+  opacity: 1;
 }
