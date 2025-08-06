@@ -305,7 +305,7 @@ body {
   width: 500px;
   height: 500px;
   position: relative;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .container-8 img {
@@ -321,6 +321,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  opacity: 0;
 }
 
 .container-8 .caption h2 {
@@ -352,3 +353,5 @@ body {
   align-self: center;
   transition: all 0.25s;
 }
+
+
