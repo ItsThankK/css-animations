@@ -91,7 +91,7 @@ body {
   border: 3px solid #e91e63;
   border-width: 0 0 3px 3px;
   opacity: 0;
-  transition: all 0.5s;
+  transition: all 0.3 s;
 }
 
 .container-2 ul li a::after {
@@ -104,10 +104,17 @@ body {
   border: 3px solid #e91e63;
   border-width: 3px 3px 0 0;
   opacity: 0;
+    transition: all .3s;
 }
 
 .container-2 ul li a:hover:before {
   bottom: -8pxpx;
   left: -8px;
+  opacity: 1;
+}
+
+.container-2 ul li a:hover::after {
+  top: -8pxpx;
+  right: -8px;
   opacity: 1;
 }
