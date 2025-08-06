@@ -232,6 +232,9 @@ body {
   margin-top: 20px;
   background-color: rgba(0, 0, 0, 0.8);
   transform: translate(200px, -200px);
+  transition: all .25s;
 }
 
-
+.container-6:hover .caption h2 {
+  transform: translate(0, 0);
+}
