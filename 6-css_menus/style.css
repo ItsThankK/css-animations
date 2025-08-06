@@ -28,7 +28,8 @@ body {
   list-style: none;
 }
 
-.container-1 ul li a {
+.container-1 ul li a,
+.container-2 ul li a {
   text-decoration: none;
   color: #3d3d3d;
   font-size: 22px;
@@ -74,3 +75,12 @@ body {
 .container-2 {
   
 }
+
+.container-2 ul li a {
+  color: #272727;
+  text-transform: uppercase;
+  transition: all 0.5s;
+}
+
+
+
