@@ -267,3 +267,7 @@ body {
   transform: translateY(0);
 }
 
+.container-7 {
+  background-color: #444;
+  border: 10px solid white;
+}
