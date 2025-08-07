@@ -346,6 +346,12 @@ body {
   transform: .5s;
   border-top: 2px solid black;
   border-bottom: 2px solid black;
+  transition: all .5s;
+}
+
+.container-7 ul li a:hover::before {
+  transform: scaleY(1.2);
+  opacity: 1;
 }
 
 
