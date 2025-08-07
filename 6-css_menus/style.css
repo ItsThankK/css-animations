@@ -296,7 +296,7 @@ body {
   padding: 5px 10px;
   font-weight: 300;
   letter-spacing: 2px;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .container-6 ul li a span {
