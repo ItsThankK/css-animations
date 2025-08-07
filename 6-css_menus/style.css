@@ -169,6 +169,7 @@ background: none;
 
 .container-3 ul li span:nth-child(4) {
   left: 75%;
+  transition-delay: .45s;
 }
 
 .container-3 ul li a:hover span {
