@@ -229,7 +229,8 @@ body {
 }
 
 .container-5 {
-  background-color: lawngreen;
+  background-color: black;
+  font-weight: 900;
 }
 
 .container-5 ul {
@@ -239,6 +240,7 @@ body {
 
 .container-5 ul li a {
   transition: all 0.3s;
+  color: white;
 }
 .container-5 ul li a:hover {
   transform: scale(1.5);
