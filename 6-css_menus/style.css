@@ -138,10 +138,14 @@ background: none;
   height: 40px;
   line-height: 40px;
   text-align: center;
-  color: red;
+  color: #262626;
   text-transform: capitalize;
   position: relative;
   transition: all .5s;
+}
+
+.container-3 ul li a:hover {
+  color: white;
 }
 
 .container-3 ul li span {
