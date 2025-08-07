@@ -488,6 +488,10 @@ body {
   background-color: #222;
 }
 
+.container-9 ul {
+  display: flex;
+  gap: 40px;
+}
 
 .container-9 ul li a {
   color: #ff0;
