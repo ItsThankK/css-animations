@@ -312,3 +312,8 @@ body {
   text-transform: capitalize;
 }
 
+.container-6 ul li a:hover span:nth-child(1),
+.container-6 ul li a:hover span:nth-child(2) {
+  transform: translateY(-100%);
+}
+
