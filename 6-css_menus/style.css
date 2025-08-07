@@ -157,3 +157,7 @@ background: none;
 .container-3 ul li span:nth-child(2) {
   left: 25%;
 }
+
+.container-3 ul li span:nth-child(3) {
+  left: 50%;
+}
