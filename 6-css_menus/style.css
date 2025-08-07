@@ -278,5 +278,9 @@ body {
 }
 
 .container-6 ul {
+  display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
