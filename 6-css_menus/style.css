@@ -38,7 +38,8 @@ body {
 .container-3 ul li,
 .container-4 ul li,
 .container-5 ul li,
-.container-6 ul li {
+.container-6 ul li,
+.container-7 ul li {
   list-style: none;
 }
 
