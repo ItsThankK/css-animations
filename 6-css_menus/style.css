@@ -284,3 +284,7 @@ body {
   align-items: center;
 }
 
+.container-6 ul li {
+  margin: 5px;
+}
+
