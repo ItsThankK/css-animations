@@ -585,4 +585,5 @@ body {
 
 .container-10 ul li a:hover {
   color: white;
+  -webkit-text-stroke: 1px black;
 }
