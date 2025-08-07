@@ -536,3 +536,13 @@ body {
   height: 15px;
   transform: rotate(-360deg);
 }
+
+.container-10 {
+  height: 100vh;
+}
+
+.container-10 ul {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
