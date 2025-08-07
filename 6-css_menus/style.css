@@ -185,10 +185,20 @@ background: none;
 }
 
 .container-4 {
-background-color: aqua;
+background-color: honeydew;
 }
 
 .container-4 ul li {
   padding: 10px 20px;
+}
+
+.container-4 ul li a::before {
+  content: "";
+  width: 15px;
+  height: 5px;
+  background-color: #00bcd4;
+  position: absolute;
+  top: 100%;
+  left: 0;
 }
 
