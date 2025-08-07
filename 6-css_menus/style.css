@@ -460,3 +460,9 @@ body {
   top: -10px;
   right: -10px;
 }
+
+
+.container-8 ul li a:hover span:last-child::before {
+  bottom: -10px;
+  left: -10px;
+}
