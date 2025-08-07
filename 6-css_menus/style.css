@@ -450,3 +450,8 @@ body {
   border-right: 2px solid #ff0;
   transition: 0.2s;
 }
+
+.container-8 ul li a:hover span:first-child::before {
+  top: -10px;
+  left: -10px;
+}
