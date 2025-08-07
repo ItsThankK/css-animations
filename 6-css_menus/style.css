@@ -194,17 +194,18 @@ background-color: honeydew;
 
 .container-4 ul li a::before {
   content: "";
-  width: 15px;
+  width: 0px;
   height: 5px;
   background-color: #00bcd4;
   position: absolute;
   top: 100%;
   left: 0;
+  transition: all .5s;
 }
 
 .container-4 ul li a::after {
   content: "";
-  width: 15px;
+  width: 0px;
   height: 5px;
   background-color: #f0f;
   position: absolute;
@@ -212,3 +213,7 @@ background-color: honeydew;
   right: 0;
 }
 
+.container-4 ul li a:hover:before {
+  width: 50%;
+  transform: translateX(100%);
+}
