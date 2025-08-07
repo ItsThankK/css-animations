@@ -582,3 +582,7 @@ body {
   -webkit-text-stroke: 1px black;
   transform: translate(40px, -40px);
 }
+
+.container-10 ul li a:hover {
+  color: white;
+}
