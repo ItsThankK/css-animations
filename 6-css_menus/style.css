@@ -248,4 +248,7 @@ body {
   height: 100%;
   background-color: orange;
   transition: 0.3s;
+  transform: scale(0);
 }
+
+
