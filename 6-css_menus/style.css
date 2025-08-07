@@ -539,10 +539,20 @@ body {
 
 .container-10 {
   height: 100vh;
+  background-color: #272727;
 }
 
 .container-10 ul {
   display: flex;
   flex-direction: column;
-  gap: 60px;
+  gap: 10px;
+}
+
+.container-10 ul li a {
+  position: relative;
+  display: block;
+  color: transparent;
+  -webkit-text-stroke: 1px white;
+  font-size: 80px;
+  font-weight: 900;
 }
