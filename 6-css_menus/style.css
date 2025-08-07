@@ -4,6 +4,7 @@ body {
   width: 900px;
   margin: 10px auto;
   gap: 40px;
+  font-family: sans-serif;
 }
 
 .container-1,
@@ -324,6 +325,13 @@ body {
 
 .container-7 {
   background: none;
+}
+
+.container-7 ul li a {
+  color: #222;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: all .5s;
 }
 
 
