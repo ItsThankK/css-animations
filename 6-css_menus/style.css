@@ -8,7 +8,8 @@ body {
 
 .container-1,
 .container-2,
-.container-3 {
+.container-3,
+.container-4 {
   background-color: yellow;
   height: 100px;
   display: flex;
@@ -18,7 +19,8 @@ body {
 
 .container-1 ul,
 .container-2 ul,
-.container-3 ul {
+.container-3 ul,
+.container-4 ul {
   padding: 0;
   margin: 0;
   display: flex;
@@ -27,13 +29,15 @@ body {
 
 .container-1 ul li,
 .container-2 ul li,
-.container-3 ul li {
+.container-3 ul li,
+.container-4 ul li {
   list-style: none;
 }
 
 .container-1 ul li a,
 .container-2 ul li a,
-.container-3 ul li a {
+.container-3 ul li a,
+.container-4 ul li a {
   text-decoration: none;
   color: #3d3d3d;
   font-size: 22px;
@@ -179,3 +183,12 @@ background: none;
 .container-3 ul li a:hover span {
   transform: scaleY(1);
 }
+
+.container-4 {
+background-color: aqua;
+}
+
+.container-4 ul li {
+  padding: 10px 20px;
+}
+
