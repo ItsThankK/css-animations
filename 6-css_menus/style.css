@@ -338,7 +338,7 @@ body {
 }
 
 .container-7 ul li a:hover {
-    color: white;
+  color: white;
 }
 
 .container-7 ul li a::before {
@@ -369,7 +369,7 @@ body {
   width: 100%;
   height: 100%;
   background-color: #222;
-  transition: .5s;
+  transition: 0.5s;
   transform: scale(0);
   z-index: -1;
 }
@@ -383,7 +383,7 @@ body {
 }
 
 .container-8 ul {
-    display: flex;
+  display: flex;
   gap: 50px;
 }
 
@@ -409,7 +409,7 @@ body {
   background-color: transparent;
   border-top: 2px solid #ff0;
   border-left: 2px solid #ff0;
-  transition: .2s;
+  transition: 0.2s;
 }
 
 .container-8 ul li a span:first-child::after {
@@ -422,19 +422,31 @@ body {
   background-color: transparent;
   border-top: 2px solid #ff0;
   border-right: 2px solid #ff0;
-  transition: .2s;
+  transition: 0.2s;
 }
 
-  
-  .container-8 ul li a span:last-child::before {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 8px;
-    height: 8px;
-    background-color: transparent;
-    border-bottom: 2px solid #ff0;
-    border-left: 2px solid #ff0;
-    transition: .2s;
-  }
+.container-8 ul li a span:last-child::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  background-color: transparent;
+  border-bottom: 2px solid #ff0;
+  border-left: 2px solid #ff0;
+  transition: 0.2s;
+}
+
+.container-8 ul li a span:last-child::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 8px;
+  height: 8px;
+  background-color: transparent;
+  border-bottom: 2px solid #ff0;
+  border-right: 2px solid #ff0;
+  transition: 0.2s;
+}
