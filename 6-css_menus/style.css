@@ -632,6 +632,8 @@ body {
   text-transform: uppercase;
   letter-spacing: 500px;
   opacity: 0;
+  width: 100vw;
+  height: 200vh;
   transition: letter-spacing 0.5s;
 }
 
