@@ -607,3 +607,7 @@ body {
 .container-11 ul:hover li a {
   color: #0002;
 }
+
+.container-11 ul li a:hover {
+  color: #000;
+}
