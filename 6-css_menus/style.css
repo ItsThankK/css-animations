@@ -594,6 +594,10 @@ body {
   -webkit-text-stroke: 1px black;
 }
 
+.container-11 {
+  background-color: transparent;
+}
+
 .container-11 ul li a {
   color: #333;
   text-decoration: none;
@@ -611,3 +615,23 @@ body {
 .container-11 ul li a:hover {
   color: #000;
 }
+
+.container-11 ul li a::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+color: rgba(0,0,0,.1);
+display: flex;
+justify-content: center;
+  align-items: center;
+  font-size: 5em;
+  z-index: -1;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 500px;
+  opacity: 0;
+  transition: letter-spacing .5s;
+}
+
