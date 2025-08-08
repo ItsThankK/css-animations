@@ -547,7 +547,8 @@ body {
   background-color: #272727;
 }
 
-.container-10 ul {
+.container-10 ul,
+.container-11 ul {
   display: flex;
   flex-direction: column;
   gap: 10px;
