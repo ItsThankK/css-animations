@@ -122,3 +122,8 @@ body {
   border-radius: 20px;
 }
 
+.container-3 .card-3 img {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+}
