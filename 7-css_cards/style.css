@@ -283,4 +283,5 @@ body {
   border-radius: 4px;
   background-color: white;
   transition: all .5s;
+  z-index: -1;
 }
