@@ -304,8 +304,15 @@ body {
   left: 10px;
   bottom: 10px;
   right: 10px;
+  background-color: red;
+  transition: 0.5s;
 }
 
 .container-6 .card-6 .imgbox-6 img {
   width: 100%;
 }
+
+.container-6 .card-6:hover .imgbox-6 {
+  bottom: 80px;
+}
+
