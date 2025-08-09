@@ -131,6 +131,7 @@ body {
   left: 50%;
   height: 320px;
   transform: translateX(-50%);
+  transition: all .5s;
 }
 
 .container-3 .card-3:hover img {
@@ -156,4 +157,8 @@ body {
 .container-3 .card-3 .content h2 {
   margin: 0;
   padding: 0;
+}
+
+.container-3 .card-3 .content p {
+  margin-bottom: 20px;
 }
