@@ -5,3 +5,10 @@ body {
   align-items: center;
   font-family: sans-serif;
 }
+
+.card-1 {
+  position: relative;
+  width: 320px;
+  padding: 40px;
+  background-color: white;
+}
