@@ -208,10 +208,29 @@ body {
 .container-4 .card-4 .face-1 {
   padding: 20px;
   text-align: center;
-  background-color: white;
+  background-color: red;
   color: #013d4a;
 }
 
 .container-4 .card-4 .face-1 h2 {
   margin-top: 80px;
+}
+
+.container-4 .card-4 .face-1 a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: #013d4a;
+  border: 2px solid #013d4a;
+  text-transform: capitalize;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.container-4 .card-4 .face-2 {
+  background-color: #013d4a;
+  transition: 0.5s;
+  width: 340px;
+  height: 440px;
 }
