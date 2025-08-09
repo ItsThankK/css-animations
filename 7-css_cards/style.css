@@ -234,3 +234,9 @@ body {
   width: 340px;
   height: 440px;
 }
+
+.container-4 .card-4 .face-2 h2 {
+  font-size: 120px;
+  color: white;
+  transition: 0.5s;
+}
