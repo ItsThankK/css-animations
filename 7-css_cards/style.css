@@ -265,3 +265,15 @@ body {
   cursor: pointer;
   width: 300px;
 }
+
+.container-5 .card-5 .face-1 {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+align-items: center;
+transition: all .5s;
+}
