@@ -137,3 +137,13 @@ body {
   height: 370px;
   left: 80%;
 }
+
+.container-3 .card-3 .content {
+  position: relative;
+  width: 40%;
+  left: 20%;
+  color: white;
+  text-transform: capitalize;
+  transition: 0.5s;
+  opacity: 0;
+}
