@@ -103,4 +103,5 @@ body {
   color: #111;
   transition: .3s;
   transform: translateY(-500px);
+  opacity: 0;
 }
