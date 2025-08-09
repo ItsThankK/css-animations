@@ -147,3 +147,8 @@ body {
   transition: 0.5s;
   opacity: 0;
 }
+
+.container-3 .card-3:hover .content {
+  left: 5%;
+  opacity: 1;
+}
