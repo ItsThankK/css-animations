@@ -285,6 +285,11 @@ body {
   justify-content: center;
   align-items: center;
   transition: all 0.5s;
+  transform: translateY(100px);
+}
+
+.container-5 .card-5:hover .face-1 {
+  transform: translateY(0);
 }
 
 .container-5 .card-5 .face-2 {
@@ -301,3 +306,5 @@ body {
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
   transition: all .5s;
 }
+
+
