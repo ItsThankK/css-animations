@@ -694,4 +694,6 @@ body {
   content: attr(data-text);
   position: absolute;
   color: #00ade1;
+  border-right: 8px solid #00ade1;
+  
 }
