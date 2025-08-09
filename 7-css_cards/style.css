@@ -71,6 +71,9 @@ body {
   color: white;
 }
 
+.container-2 {
+  margin-bottom: 100px;
+}
 .container-2 .card-2 {
   position: relative;
   width: 300px;
@@ -126,4 +129,11 @@ body {
   position: absolute;
   bottom: 0;
   left: 50%;
+  height: 320px;
+  transform: translateX(-50%);
+}
+
+.container-3 .card-3:hover img {
+  height: 370px;
+  left: 80%;
 }
