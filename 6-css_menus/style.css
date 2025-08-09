@@ -695,5 +695,5 @@ body {
   position: absolute;
   color: #00ade1;
   border-right: 8px solid #00ade1;
-  
+  -webkit-text-stroke: 1px #00ade1;
 }
