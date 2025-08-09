@@ -693,4 +693,5 @@ body {
 .container-12 ul li a::before {
   content: attr(data-text);
   position: absolute;
+  color: #00ade1;
 }
