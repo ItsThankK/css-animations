@@ -545,7 +545,7 @@ body {
 
 .container-10,
 .container-11 {
-  height: 100vh;
+  height: auto;
   background-color: #272727;
 }
 
@@ -598,6 +598,7 @@ body {
 
 .container-11 {
   background-color: transparent;
+  margin-top: 50px;
 }
 
 .container-11 ul li a {
@@ -635,7 +636,7 @@ body {
   letter-spacing: 500px;
   opacity: 0;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   transition: letter-spacing 0.5s;
 }
 
