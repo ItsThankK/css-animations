@@ -173,7 +173,8 @@ body {
   border-radius: 10px;
 }
 
-.container-4 {
+.container-4,
+.container-6 {
   width: 600px;
   height: 600px;
   background-color: #777;
@@ -260,54 +261,10 @@ body {
   margin-bottom: 100px;
 }
 
-.container-5 {
-  width: 600px;
-  height: 600px;
-  background-color: #777;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.container-5 .card-5 {
+.container-6 .card-6 {
   position: relative;
-  cursor: pointer;
-  width: 300px;
-}
-
-.container-5 .card-5 .face-1 {
-  position: relative;
-  width: 300px;
-  height: 200px;
-  background-color: black;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  transition: all 0.5s;
-  transform: translateY(100px);
-}
-
-.container-5 .card-5:hover .face-1 {
-  transform: translateY(0);
-}
-
-.container-5 .card-5 .face-2 {
-  position: relative;
-  width: 300px;
-  height: 200px;
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  box-sizing: border-box;
-  padding: 20px;
-  transform: translateY(-91px);
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
-  transition: all .5s;
-}
-
-.container-5 .card-5:hover .face-2 {
-  transform: translateY(0);
+  width: 320px;
+  height: 350px;
+  background: white;
+  border-radius: 4px;
 }
