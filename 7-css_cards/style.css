@@ -55,5 +55,13 @@ body {
 }
 
 .card-1 .content a {
-  
+  margin-top: 10px;
+  font-size: 14px;
+  display: inline-block;
+  text-decoration: none;
+  color: #777;
+  padding: 6px 10px;
+  font-weight: 600;
+  background-color: #fff;
+  box-shadow: 0 2px 20px rgba(0,0,0,0.05);
 }
