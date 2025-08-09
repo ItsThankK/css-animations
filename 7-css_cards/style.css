@@ -204,3 +204,14 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.container-4 .card-4 .face-1 {
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+  color: #013d4a;
+}
+
+.container-4 .card-4 .face-1 h2 {
+  margin-top: 80px;
+}
