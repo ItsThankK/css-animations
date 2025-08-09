@@ -181,10 +181,15 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .container-4 .card-4 {
   position: relative;
   width: 300px;
   height: 400px;
   background: white;
   transition: 0.5s;
+}
+
+.container-4 .card-4:hover {
+  box-shadow: 0 30px 50px rgba(0,0,0,0.5);
 }
