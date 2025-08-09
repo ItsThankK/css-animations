@@ -680,3 +680,11 @@ body {
   position: relative;
 }
 
+.container-12 ul li a {
+  position: relative;
+  font-size: 4em;
+  letter-spacing: 2px;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+
