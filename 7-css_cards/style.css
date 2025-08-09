@@ -308,4 +308,6 @@ body {
   transition: all .5s;
 }
 
-
+.container-5 .card-5:hover .face-2 {
+  transform: translateY(0);
+}
