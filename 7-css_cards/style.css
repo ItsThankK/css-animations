@@ -92,3 +92,7 @@ body {
   width: 100%;
   border-radius: 10px;
 }
+
+.card-2:hover {
+  height: 420px;
+}
