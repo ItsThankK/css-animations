@@ -33,5 +33,5 @@ body {
 }
 
 .card-1:hover::before {
-  
+  bottom: 0;
 }
