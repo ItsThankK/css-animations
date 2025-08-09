@@ -96,3 +96,11 @@ body {
 .card-2:hover {
   height: 420px;
 }
+
+.container-2 .content {
+  padding: 10px 20px;
+  text-align: center;
+  color: #111;
+  transition: .3s;
+  transform: translateY(-500px);
+}
