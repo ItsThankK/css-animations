@@ -173,7 +173,14 @@ body {
   border-radius: 10px;
 }
 
-
+.container-4 {
+  width: 600px;
+  height: 600px;
+  background-color: #777;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .container-4 .card-4 {
   position: relative;
   width: 300px;
