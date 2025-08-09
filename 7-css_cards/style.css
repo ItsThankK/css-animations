@@ -255,3 +255,13 @@ body {
   font-size: 80px;
   color: #013d4a;
 }
+
+.container-4 {
+  margin-bottom: 100px;
+}
+
+.container-5 .card-5 {
+  position: relative;
+  cursor: pointer;
+  width: 300px;
+}
