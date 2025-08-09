@@ -676,3 +676,7 @@ body {
   gap: 30px;
 }
 
+.container-12 ul li {
+  position: relative;
+}
+
