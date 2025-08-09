@@ -105,3 +105,8 @@ body {
   transform: translateY(-500px);
   opacity: 0;
 }
+
+.container-2:hover .content {
+  transform: translateY(-180px);
+  opacity: 1;
+}
