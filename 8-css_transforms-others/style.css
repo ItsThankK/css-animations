@@ -91,6 +91,7 @@ body {
 }
 
 .container-3 .icon {
+  position: relative;
   width: 90px;
   height: 90px;
   background-color: #f1f1f1;
@@ -114,8 +115,11 @@ body {
 .container-3 .icon::before {
   content: "";
   position: absolute;
-  width: 120%;
-  height: 120%;
+  width: 100px;
+  height: 100px;
+  background-color: #10ac84;
+  top: 90%;
+  left: -110%;
 }
 
 
