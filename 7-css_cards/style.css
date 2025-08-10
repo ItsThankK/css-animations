@@ -488,3 +488,11 @@ body {
   z-index: 1;
 }
 
+.contentBox h3 {
+  font-size: 18px;
+  color: white;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
