@@ -19,3 +19,6 @@ body {
   display: flex;
 }
 
+.container-1 ul li {
+  list-style: none;
+}
