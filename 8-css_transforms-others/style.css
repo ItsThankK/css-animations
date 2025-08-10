@@ -123,6 +123,11 @@ body {
   transform: rotate(45deg);
 }
 
+
+.container-3 .icon:hover::before {
+  animation: animation 1s;
+}
+
 @keyframes animation {
   0% {
     left: -110%;
