@@ -111,5 +111,10 @@ body {
   color: #f1f1f1;
 }
 
+.container-3 .icon::before {
+  content: "";
+  
+}
+
 
 
