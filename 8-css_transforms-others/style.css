@@ -381,3 +381,7 @@ body {
   top: 0;
   left: -5px;
 }
+
+.container-7 h2 span i:after {
+  content: "";
+}
