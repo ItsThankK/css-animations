@@ -191,7 +191,7 @@ body {
   transform: scaleX(1);
 }
 
-.container-4 .box::before {
+.container-4 .box::after {
   content: "";
   position: absolute;
   right: 0;
@@ -203,5 +203,9 @@ body {
   box-sizing: border-box;
   transition: all .5s;
   transform: scaleY(0);
+}
+
+.container-4 .box:hover::after {
+  transform: scaleY(1);
 }
 
