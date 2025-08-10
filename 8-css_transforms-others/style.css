@@ -13,4 +13,9 @@ body {
   width: 900px;
 }
 
+.container-1 ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
 
