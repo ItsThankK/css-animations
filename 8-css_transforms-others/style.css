@@ -26,7 +26,12 @@ body {
   font-size: 100px;
   font-weight: bold;
   letter-spacing: 10px;
-  transition: .2s;
+  transition: 2s;
+}
+
+.container-1 ul:hover li {
+  transform: rotate(45deg) translateY(-200px);
+  opacity: 0;
 }
 
 
