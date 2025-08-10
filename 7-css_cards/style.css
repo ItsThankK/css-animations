@@ -262,7 +262,8 @@ body {
   margin-bottom: 100px;
 }
 
-.container-6 {
+.container-6,
+.container-7 {
   flex-direction: column;
 }
 
