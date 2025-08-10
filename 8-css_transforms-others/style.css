@@ -114,6 +114,8 @@ body {
 .container-3 .icon::before {
   content: "";
   position: absolute;
+  width: 120%;
+  height: 120%;
 }
 
 
