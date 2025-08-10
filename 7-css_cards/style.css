@@ -438,6 +438,7 @@ body {
   height: 420px;
   background: #122936;
   border-radius: 20px;
+  overflow: hidden;
 }
 
 .container-8 .card-8::before {
