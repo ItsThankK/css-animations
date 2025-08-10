@@ -285,7 +285,7 @@ body {
   border-radius: 4px;
   background-color: white;
   transition: all 0.5s;
-  z-index: -1;
+  z-index: 0;
 }
 
 .container-6:hover .card-6::before {
@@ -306,6 +306,7 @@ body {
   right: 10px;
   background-color: red;
   transition: 0.5s;
+  z-index: 10;
 }
 
 .container-6 .card-6 .imgbox-6 img {
@@ -323,6 +324,7 @@ body {
   bottom: 10px;
   height: 60px;
   text-align: center;
+  z-index: 5;
 }
 
 .container-6 .card-6 .details h2 {
@@ -332,4 +334,10 @@ body {
   font-size: 20px;
   color: #777;
   text-transform: uppercase;
+}
+
+.container-6 .card-6 .details h2 span {
+  font-weight: 500;
+  font-size: 16px;
+  color: #f38695;
 }
