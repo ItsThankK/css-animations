@@ -283,3 +283,7 @@ body {
 .container-5 ul:hover li {
   transform: rotate(180deg);
 }
+
+.container-5 ul:hover li:last-child {
+  transition-delay: 0.5s;
+}
