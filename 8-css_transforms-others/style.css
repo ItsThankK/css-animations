@@ -384,4 +384,10 @@ body {
 
 .container-7 h2 span i:after {
   content: "";
+  position: absolute;
+  width: 8px;
+  height: 2px;
+  background: white;
+  top: 0;
+  left: -5px;
 }
