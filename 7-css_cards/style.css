@@ -175,7 +175,8 @@ body {
 
 .container-4,
 .container-6,
-.container-7 {
+.container-7,
+.container-8 {
   width: 600px;
   height: 600px;
   background-color: #777;
@@ -263,7 +264,8 @@ body {
 }
 
 .container-6,
-.container-7 {
+.container-7,
+.container-8 {
   flex-direction: column;
 }
 
