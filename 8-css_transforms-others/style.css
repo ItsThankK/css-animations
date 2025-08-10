@@ -2,6 +2,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: sans-serif;
 }
 
 .container-1 {
@@ -22,5 +23,9 @@ body {
 .container-1 ul li {
   list-style: none;
   color: white;
+  font-size: 100px;
+  font-weight: bold;
 }
+
+
 
