@@ -380,6 +380,7 @@ body {
   background: white;
   top: 0;
   left: -5px;
+  box-shadow: 0 53px #fff;
 }
 
 .container-7 h2 span i:after {
