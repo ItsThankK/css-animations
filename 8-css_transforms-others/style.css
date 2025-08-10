@@ -3,3 +3,14 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.container-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3b3b3b;
+  height: 100vh;
+  width: 900px;
+}
+
+
