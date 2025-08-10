@@ -68,5 +68,15 @@ body {
   position: relative;
 }
 
+.container-2 h1::before {
+  content: "text";
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: black;
+  width: 0%;
+  transition: all .5s;
+}
+
 
 
