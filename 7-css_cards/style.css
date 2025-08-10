@@ -359,6 +359,7 @@ body {
   height: 400px;
   background-color: black;
   box-shadow: 0 30px 30px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
 }
 
 .container-7 .card-7 .content {
@@ -371,6 +372,13 @@ body {
   text-align: center;
   transition: all 0.5s;
   overflow: hidden;
+}
+
+.container-7 .card-7:hover .content {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  overflow: visible;
 }
 
 .container-7 .card-7 .content h3 {
