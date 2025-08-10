@@ -322,3 +322,7 @@ body {
   transition: all 2s;
   object-fit: cover;
 }
+
+.container-section-6 h2 {
+  position: relative;
+}
