@@ -270,10 +270,12 @@ body {
 }
 
 .container-5 ul {
+  display: flex;
   margin: 0;
   padding: 0;
 }
 
 .container-5 ul li {
   list-style: none;
+  transition: all .5s;
 }
