@@ -396,3 +396,8 @@ body {
   opacity: 0;
 }
 
+.container-7 h2 span:hover i::before,
+.container-7 h2 span:hover i::after {
+opacity: 1;
+}
+
