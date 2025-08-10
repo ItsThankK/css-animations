@@ -174,7 +174,8 @@ body {
 }
 
 .container-4,
-.container-6 {
+.container-6,
+.container-7 {
   width: 600px;
   height: 600px;
   background-color: #777;
