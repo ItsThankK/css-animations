@@ -380,7 +380,7 @@ body {
   background: white;
   top: 0;
   left: -5px;
-  box-shadow: 0 53px #fff;
+  box-shadow: 0 53px #fff, 37px 53px #fff, 36px 0 #fff;
 }
 
 .container-7 h2 span i:after {
@@ -391,5 +391,5 @@ body {
   background: white;
   top: 0;
   left: -5px;
-    box-shadow: 0 60px #fff;
+  box-shadow: 0 60px #fff, 30px 60px #fff, 30px 0px #fff;
 }
