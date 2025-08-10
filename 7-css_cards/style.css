@@ -472,5 +472,19 @@ body {
   transition: .5s;
 }
 
+.container-8 .card-8:hover img {
+  max-width: 50%;
+  max-height: 70%;
+  object-fit: cover;
+}
 
+.contentBox {
+  position: relative;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
 
