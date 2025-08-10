@@ -264,6 +264,7 @@ body {
   overflow: hidden;
   background: #9b59b6;
   font-size: 10em;
+  display: flex;
 }
 
 .container-5 ul {
