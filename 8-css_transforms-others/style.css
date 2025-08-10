@@ -373,6 +373,9 @@ body {
   filter: blur(5px);
 }
 
+.container-7 h2 span:hover {
+  filter: blur(0);
+}
 .container-7 h2 span i::before {
   content: "";
   position: absolute;
