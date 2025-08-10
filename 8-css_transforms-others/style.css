@@ -100,5 +100,9 @@ body {
   box-shadow: 0 5px 15px -5px #00000070;
 }
 
+.container-3 .icon i {
+  line-height: 90px;
+}
+
 
 
