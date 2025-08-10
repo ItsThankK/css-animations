@@ -115,7 +115,7 @@ body {
 .container-3 .icon::before {
   content: "";
   position: absolute;
-  width: 100px;
+  width: 150px;
   height: 100px;
   background-color: #10ac84;
   top: 90%;
