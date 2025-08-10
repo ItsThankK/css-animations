@@ -371,3 +371,7 @@ body {
 .container-7 h2 span {
   position: relative;
 }
+
+.container-7 h2 span i::before {
+  content: "";
+}
