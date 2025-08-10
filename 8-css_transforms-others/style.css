@@ -294,6 +294,6 @@ body {
 }
 
 .container-5 ul:hover li:last-child span:nth-child(2) {
-  transform: rotate(180deg);
+  transform: rotate(180deg) translateY(-25px);
   transition-delay: 1s;
 }
