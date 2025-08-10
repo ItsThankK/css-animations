@@ -415,3 +415,7 @@ opacity: 1;
   background: #833471;
   transition: all .5s;
 }
+
+.container-8::before {
+  content: "";
+}
