@@ -361,4 +361,5 @@ body {
 .container-7 h2 {
   position: relative;
   display: flex;
+  gap: 15px;
 }
