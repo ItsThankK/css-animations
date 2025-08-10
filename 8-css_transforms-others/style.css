@@ -374,4 +374,5 @@ body {
 
 .container-7 h2 span i::before {
   content: "";
+  position: absolute;
 }
