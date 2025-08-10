@@ -125,7 +125,7 @@ body {
 
 
 .container-3 .icon:hover::before {
-  animation: animation 1s;
+  animation: animation 1s 1 forwards;
 }
 
 @keyframes animation {
