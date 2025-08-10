@@ -266,6 +266,7 @@ body {
   font-size: 10em;
   display: flex;
   color: #fff;
+  cursor: pointer;
 }
 
 .container-5 ul {
