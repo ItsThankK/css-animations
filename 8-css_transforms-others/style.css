@@ -175,6 +175,7 @@ body {
 
 .container-4 .box::before {
   content: "";
+  position: absolute;
 }
 
 
