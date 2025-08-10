@@ -407,3 +407,10 @@ body {
 opacity: 1;
 }
 
+.container-8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #833471;
+}
