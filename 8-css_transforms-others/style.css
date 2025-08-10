@@ -439,3 +439,8 @@ opacity: 1;
   background-color: red;
   z-index: 3;
 }
+
+.container-8-1 .card {
+  width: 300px;
+  
+}
