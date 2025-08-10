@@ -427,3 +427,16 @@ body {
   height: 100%;
   object-fit: cover;
 }
+
+.container-8 {
+  background: #09161d;
+}
+
+.container-8 .card-8 {
+  position: relative;
+  width: 320px;
+  height: 420px;
+  background: #122936;
+  border-radius: 20px;
+}
+
