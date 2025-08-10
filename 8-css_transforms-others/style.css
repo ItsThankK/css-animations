@@ -443,4 +443,6 @@ opacity: 1;
 .container-8-1 .card {
   width: 300px;
   height: 400px;
+  background-color: #fff;
+  position: absolute;
 }
