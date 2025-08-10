@@ -488,6 +488,11 @@ body {
   z-index: 1;
 }
 
+.contentBox > * {
+  margin: 5px;
+  padding: 0;
+}
+
 .contentBox h3 {
   font-size: 18px;
   color: white;
@@ -496,12 +501,25 @@ body {
   letter-spacing: 1px;
 }
 
-.contentBox h3 .price {
+.contentBox .price {
   font-size: 24px;
   color: white;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 1px;
+}
+
+.contentBox .buy {
+  position: relative;
+  padding: 10px 30px;
+  margin-top: 15px;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  background: #219bf3;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: 0.5s;
 }
 
 
