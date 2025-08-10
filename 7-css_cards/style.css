@@ -384,3 +384,13 @@ body {
   font-size: 18px;
   transition: 0.5s;
 }
+
+.container-7 .card-7 .content a {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  display: inline-block;
+  margin-top: 10px;
+  transition: .5s;
+}
