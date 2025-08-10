@@ -98,6 +98,7 @@ body {
   margin: 10px;
   border-radius: 30%;
   color: #10ac84;
+  overflow: hidden;
   box-shadow: 0 5px 15px -5px #00000070;
 }
 
