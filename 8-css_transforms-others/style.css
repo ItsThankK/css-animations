@@ -216,5 +216,6 @@ body {
   display: block;
   background-color: yellow;
   transform: rotate(45deg);
+  box-sizing: border-box;
 }
 
