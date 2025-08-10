@@ -415,6 +415,7 @@ opacity: 1;
   min-height: 100vh;
   width: 100%;
   background: #833471;
+  z-index: 1;
   transition: .5s;
 }
 
@@ -429,4 +430,12 @@ opacity: 1;
   background: #ffd000;
   transition: .5s;
   clip-path: circle(250px at center);
+}
+
+.container-8-1 {
+  position: relative;
+  width: 1000px;
+  height: 400px;
+  background-color: red;
+  z-index: 3;
 }
