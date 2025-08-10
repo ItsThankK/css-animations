@@ -367,3 +367,7 @@ body {
   font-size: 4em;
   cursor: pointer;
 }
+
+.container-7 h2 span {
+  position: relative;
+}
