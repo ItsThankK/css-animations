@@ -358,6 +358,16 @@ body {
   width: 300px;
   height: 400px;
   background-color: black;
-  color: white;
   box-shadow: 0 30px 30px rgba(0, 0, 0, 0.5);
+}
+
+.container-7 .card-7 .content {
+  position: absolute;
+  bottom: 0;
+  width: 80%;
+  height: 100%;
+  background-color: white;
+  left: 10%;
+  text-align: center;
+  transition: all 0.5s;
 }
