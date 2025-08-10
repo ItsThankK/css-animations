@@ -425,4 +425,5 @@ opacity: 1;
   height: 100%;
   z-index: -2;
   background: #ffd000;
+  transition: all .5s;
 }
