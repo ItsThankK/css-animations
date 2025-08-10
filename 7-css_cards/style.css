@@ -440,3 +440,13 @@ body {
   border-radius: 20px;
 }
 
+.container-8 .card-8::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  width: 100%;
+  height: 100%;
+  background: #219bf3;
+  transform: skewY(-15deg);
+  transition: 0.5s;
+}
