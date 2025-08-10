@@ -445,4 +445,8 @@ opacity: 1;
   height: 400px;
   background-color: #fff;
   position: absolute;
+  top: calc(50% -200px);
+  left: 50%;
+  border-radius: 10px;
+  transform: translateX(-50%);
 }
