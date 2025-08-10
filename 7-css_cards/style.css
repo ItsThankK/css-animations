@@ -524,5 +524,10 @@ body {
   top: 200px;
 }
 
+.card-8:hover .buy {
+  opacity: 1;
+  top: 0;
+}
+
 
 
