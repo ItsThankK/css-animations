@@ -113,7 +113,7 @@ body {
 
 .container-3 .icon::before {
   content: "";
-  
+  position: absolute;
 }
 
 
