@@ -78,7 +78,7 @@ body {
   color: black;
   width: 0%;
   overflow: hidden;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 .container-2 h1:hover::before {
@@ -125,7 +125,6 @@ body {
   transform: rotate(45deg);
 }
 
-
 .container-3 .icon:hover::before {
   animation: animation 1s 1 forwards;
 }
@@ -133,7 +132,7 @@ body {
 @keyframes animation {
   0% {
     left: -110%;
-    top:90%
+    top: 90%;
   }
 
   50% {
@@ -183,7 +182,7 @@ body {
   border-top: 4px solid #10ac84;
   border-bottom: 4px solid #10ac84;
   box-sizing: border-box;
-  transition: all .5s;
+  transition: all 0.5s;
   transform: scaleX(0);
 }
 
@@ -201,7 +200,7 @@ body {
   border-left: 4px solid #10ac84;
   border-right: 4px solid #10ac84;
   box-sizing: border-box;
-  transition: all .5s;
+  transition: all 0.5s;
   transform: scaleY(0);
 }
 
@@ -229,13 +228,13 @@ body {
   border-top: 4px solid #10ac84;
   border-bottom: 4px solid #10ac84;
   box-sizing: border-box;
-  transition: all .5s;
+  transition: all 0.5s;
   transform: scaleX(0);
 }
 
 .container-4 .box:hover .rotated::before {
   transform: scaleX(1);
-  transition-delay: .5S;
+  transition-delay: 0.5s;
 }
 
 .rotated::after {
@@ -248,7 +247,7 @@ body {
   border-left: 4px solid #10ac84;
   border-right: 4px solid #10ac84;
   box-sizing: border-box;
-  transition: all .5s;
+  transition: all 0.5s;
   transform: scaleY(0);
 }
 
@@ -256,3 +255,5 @@ body {
   transform: scaleY(1);
   transition-delay: 1s;
 }
+
+@import url("https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap");
