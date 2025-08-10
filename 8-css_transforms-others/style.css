@@ -287,3 +287,13 @@ body {
 .container-5 ul:hover li:last-child {
   transition-delay: 0.5s;
 }
+
+.container-5 ul li span {
+  transition: 0.5s;
+  display: inline-block;
+}
+
+.container-5 ul:hover li:last-child span:nth-child(2) {
+  transform: rotate(180deg);
+  transition-delay: 1s;
+}
