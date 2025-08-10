@@ -184,6 +184,7 @@ body {
   border-bottom: 4px solid #10ac84;
   box-sizing: border-box;
   transition: all .5s;
+  transform: scaleX(0);
 }
 
 
