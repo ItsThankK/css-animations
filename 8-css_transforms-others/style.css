@@ -412,6 +412,7 @@ opacity: 1;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  width: 100%;
   background: #833471;
   transition: all .5s;
 }
