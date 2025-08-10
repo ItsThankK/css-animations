@@ -311,3 +311,11 @@ body {
   align-items: center;
   overflow: hidden;
 }
+
+.container-section-6 img {
+  position: absolute;
+  width: 140%;
+  height: 140%;
+  top: -20%;
+  left: -20%;
+}
