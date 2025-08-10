@@ -156,7 +156,14 @@ body {
 }
 
 .container-4 .box h1 {
-  
+  margin: 0;
+  padding: 0;
+  color: #272727;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 
