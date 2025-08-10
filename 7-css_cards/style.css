@@ -496,3 +496,13 @@ body {
   letter-spacing: 1px;
 }
 
+.contentBox h3 .price {
+  font-size: 24px;
+  color: white;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+
+
