@@ -447,5 +447,5 @@ body {
   top: calc(50% -200px);
   left: 50%;
   border-radius: 10px;
-  transform: translateX(-50%) translateY(calc(50px * var(--i))) rotate(40deg) skew(-20deg, -10deg);
+  transform: translateX(-50%) translateY(calc(50px * var(--i))) rotate(40deg) skew(-20deg, -10deg) scale(0.6);
 }
