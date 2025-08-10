@@ -258,3 +258,8 @@ body {
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap");
+
+.container-5 {
+  font-family: "Just Another Hand";
+  overflow: hidden;
+}
