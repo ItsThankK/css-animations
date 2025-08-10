@@ -392,6 +392,7 @@ body {
   margin: 10px auto;
   font-size: 18px;
   transition: 0.5s;
+  opacity: 0;
 }
 
 .container-7 .card-7 .content a {
@@ -402,5 +403,11 @@ body {
   display: inline-block;
   margin-top: 10px;
   transition: 0.5s;
+  opacity: 0;
 }
 
+.container-7 .card-7:hover .content p, 
+.container-7 .card-7:hover .content a {
+  opacity: 1;
+  transition-delay: .5s;
+}
