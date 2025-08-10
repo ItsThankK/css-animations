@@ -279,3 +279,7 @@ body {
   list-style: none;
   transition: all .5s;
 }
+
+.container-5 ul:hover li {
+  transform: rotate(180deg);
+}
