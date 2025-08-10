@@ -449,4 +449,6 @@ body {
   border-radius: 10px;
   transform: translateX(-50%) translateY(calc(50px * var(--i))) rotate(40deg) skew(-20deg, -10deg) scale(0.6);
   box-shadow: 25px 20px 100px rgba(0, 0, 0, 0.2);
+  z-index: calc(-1 * var(--i));
+  transition: all .5s;
 }
