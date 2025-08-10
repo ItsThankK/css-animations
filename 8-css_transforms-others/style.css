@@ -86,13 +86,14 @@ body {
 
 .container-3 {
   display: flex;
+  text-align: center;
   background-color: white;
 }
 
 .container-3 .icon {
   width: 90px;
   height: 90px;
-  background-color: #1f1f1f;
+  background-color: #f1f1f1;
   margin: 10px;
   border-radius: 30%;
   color: #10ac84;
