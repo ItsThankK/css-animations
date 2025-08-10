@@ -370,6 +370,7 @@ body {
 
 .container-7 h2 span {
   position: relative;
+  filter: blur(5px);
 }
 
 .container-7 h2 span i::before {
