@@ -488,3 +488,7 @@ body {
   background-color: aquamarine;
 }
 
+.container-8-1:hover .card:nth-child(2) {
+  background-color: burlywood;
+}
+
