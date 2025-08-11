@@ -456,3 +456,7 @@ body {
 .container-8-1 .card:nth-child(2) {
   opacity: 0.8;
 }
+
+.container-8-1 .card:nth-child(3) {
+  opacity: 0.6;
+}
