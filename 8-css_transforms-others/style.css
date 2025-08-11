@@ -452,6 +452,8 @@ body {
   z-index: calc(-1 * var(--i));
   transition: all .5s;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container-8-1 .card:nth-child(2) {
