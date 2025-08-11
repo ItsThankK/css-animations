@@ -463,4 +463,5 @@ body {
 
 .container-8-1:hover .card {
   position: absolute;
+  z-index: 1;
 }
