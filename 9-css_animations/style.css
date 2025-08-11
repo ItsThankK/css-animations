@@ -4,13 +4,13 @@ body {
   gap: 50px;
 }
 
-.container-1 div {
+.container-1 .div1 {
   width: 150px;
   height: 150px;
   background-color: red;
 }
 
-.container-1 div:hover {
+.container-1 .div1:hover {
   animation: moving 1s;
 }
 
