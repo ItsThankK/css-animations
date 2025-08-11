@@ -477,11 +477,12 @@ body {
   color: #333;
   transition: all .5s;
   opacity: 0;
+  color: white;
 }
 
 .container-8-1:hover .card .content {
   opacity: 1;
-  transition-delay: calc(0.2s * var(--j));
+  transition-delay: calc(0.5s * var(--j));
 }
 
 .container-8-1:hover .card:nth-child(1) {
