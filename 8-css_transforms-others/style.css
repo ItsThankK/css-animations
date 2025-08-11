@@ -469,5 +469,8 @@ body {
   z-index: 1;
   opacity: 1;
   transform: translateX(calc(-50% + calc(350px * var(--i))));
+}
 
+.container-8-1 .card .content {
+  
 }
