@@ -492,3 +492,6 @@ body {
   background-color: burlywood;
 }
 
+.container-8-1:hover .card:nth-child(3) {
+  background-color: hotpink;
+}
