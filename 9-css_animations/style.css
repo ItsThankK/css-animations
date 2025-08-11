@@ -1,8 +1,6 @@
 body {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   gap: 50px;
 }
 
@@ -10,4 +8,8 @@ body {
   width: 150px;
   height: 150px;
   background-color: red;
+}
+
+@keyframes moving {
+  
 }
