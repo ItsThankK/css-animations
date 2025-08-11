@@ -10,6 +10,10 @@ body {
   background-color: red;
 }
 
+.container-1 div:hover {
+  animation: moving 1s;
+}
+
 @keyframes moving {
   from {
     transform: translateX(0);
