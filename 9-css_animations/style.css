@@ -45,6 +45,6 @@ body {
   }
 
   100% {
-    transform: translate(1000px, 500px);
+    transform: translate(1000px, -500px);
   }
 }
