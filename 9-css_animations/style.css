@@ -32,15 +32,19 @@ body {
 }
 
 .container-2 .div2:hover {
-  animation: moving 3s;
+  animation: movingsteps 3s;
 }
 
-@keyframes moving {
-  from {
+@keyframes movingsteps {
+  0% {
     transform: translateX(0);
   }
 
-  to {
+  50% {
     transform: translateX(1000px);
+  }
+
+  100% {
+    transform: translate(1000px, 500px);
   }
 }
