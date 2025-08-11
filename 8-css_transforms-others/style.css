@@ -451,6 +451,7 @@ body {
   box-shadow: 25px 20px 100px rgba(0, 0, 0, 0.2);
   z-index: calc(-1 * var(--i));
   transition: all .5s;
+  display: flex;
 }
 
 .container-8-1 .card:nth-child(2) {
