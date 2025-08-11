@@ -478,3 +478,7 @@ body {
   transition: all .5s;
   opacity: 0;
 }
+
+.container-8-1 .card:hover .content {
+
+}
