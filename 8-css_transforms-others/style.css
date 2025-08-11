@@ -517,6 +517,7 @@ body {
 
 .container-9 section:nth-child(1) h2 {
   background-image: url(../img.jpg);
+  background-size: cover;
 }
 
 .container-9 section p {
