@@ -516,5 +516,5 @@ body {
 }
 
 .container-9 section p {
-  
+max-width: 800px;
 }
