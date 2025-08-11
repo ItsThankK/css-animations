@@ -2,6 +2,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 50px;
+  box-sizing: border-box;
 }
 
 .container-1 .div1 {
@@ -11,7 +12,7 @@ body {
 }
 
 .container-1 .div1:hover {
-  animation: moving 1s;
+  animation: moving 2s;
 }
 
 @keyframes moving {
@@ -24,14 +25,14 @@ body {
   }
 }
 
-.container-1 .div2 {
+.container-2 .div2 {
   width: 150px;
   height: 150px;
   background-color: blue;
 }
 
-.container-1 .div1:hover {
-  animation: moving 1s;
+.container-2 .div2:hover {
+  animation: moving 3s;
 }
 
 @keyframes moving {
