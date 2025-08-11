@@ -496,3 +496,7 @@ body {
 .container-8-1:hover .card:nth-child(3) {
   background-color: hotpink;
 }
+
+.container-9 .section {
+  position: relative;
+}
