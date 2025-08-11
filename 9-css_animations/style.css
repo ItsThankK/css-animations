@@ -5,3 +5,7 @@ body {
   align-items: center;
   gap: 50px;
 }
+
+.container-1 div {
+  width: 150px;
+}
