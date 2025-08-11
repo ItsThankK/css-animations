@@ -23,3 +23,23 @@ body {
     transform: translateX(1000px);
   }
 }
+
+.container-1 .div2 {
+  width: 150px;
+  height: 150px;
+  background-color: blue;
+}
+
+.container-1 .div1:hover {
+  animation: moving 1s;
+}
+
+@keyframes moving {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(1000px);
+  }
+}
