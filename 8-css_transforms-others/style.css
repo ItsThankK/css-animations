@@ -511,4 +511,6 @@ body {
 .container-9 section h2 {
   font-size: 24vw;
   text-transform: uppercase;
+  font-weight: 900;
+  line-height: 1em;
 }
