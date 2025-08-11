@@ -29,10 +29,7 @@ body {
   width: 150px;
   height: 150px;
   background-color: blue;
-}
-
-.container-2 .div2:hover {
-  animation: movingsteps 3s;
+  animation: movingsteps 3s forwards;
 }
 
 @keyframes movingsteps {
@@ -45,24 +42,22 @@ body {
   }
 
   100% {
-    transform: translate(1000px, -500px);
+    transform: translate(1000px, 1px);
   }
 }
 
 .container-3 .div3 {
   width: 150px;
   height: 150px;
-  background-color: blue;
-}
-
-.container-3 .div3:hover {
+  background-color: green;
   animation: movingsteps 3s;
-  animation-fill-mode: forwards;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
 }
 
 @keyframes movingsteps {
   0% {
-    transform: translateX(0);
+    transform: translateX(500px);
   }
 
   50% {
