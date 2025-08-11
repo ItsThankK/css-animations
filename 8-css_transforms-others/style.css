@@ -515,6 +515,10 @@ body {
   line-height: 1em;
 }
 
+.container-9 section:nth-child(1) h2 {
+  
+}
+
 .container-9 section p {
 max-width: 800px;
 margin: 0 auto;
