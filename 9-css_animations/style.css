@@ -48,3 +48,28 @@ body {
     transform: translate(1000px, -500px);
   }
 }
+
+.container-3 .div3 {
+  width: 150px;
+  height: 150px;
+  background-color: blue;
+}
+
+.container-3 .div3:hover {
+  animation: movingsteps 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes movingsteps {
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(1000px);
+  }
+
+  100% {
+    transform: translate(1000px, -500px);
+  }
+}
