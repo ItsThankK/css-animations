@@ -414,13 +414,19 @@ body {
     color: red;
     transform: translateX(-50px);
     letter-spacing: 20px;
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
   }
   50% {
     letter-spacing: -20px;
+    opacity: 1;
   }
   100% {
     color: blue;
     transform: translateX(50px);
     letter-spacing: 20px;
+    opacity: 0;
   }
 }
