@@ -312,3 +312,8 @@ body {
 .container-8 ul li:nth-child(5) {
   animation-delay: 0.8s;
 }
+
+.fa-heart {
+  width: 20px;
+  height: 20px;
+}
