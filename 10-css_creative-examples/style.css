@@ -136,6 +136,7 @@ body {
   z-index: -1;
   transform: skew(-15deg);
   animation: moving 2s linear infinite alternate;
+  transition: all .5s;
 }
 
 @keyframes moving {
@@ -145,5 +146,11 @@ body {
   to {
     left: 100%;
   }
+}
+
+.container-5 a:hover::before {
+  width: 100%;
+  transform: skew(0);
+  animation: none;
 }
 
