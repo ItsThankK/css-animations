@@ -412,8 +412,10 @@ body {
 @keyframes loading-text {
   0% {
     color: red;
+    transform: translateX(-50px);
   }
   100% {
     color: blue;
+    transform: translateX(50px);
   }
 }
