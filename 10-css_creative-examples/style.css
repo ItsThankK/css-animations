@@ -468,4 +468,8 @@ body {
   padding: 15px 30px;
   color: #00aeff;
   font-size: 18px;
+  letter-spacing: 3px;
+  border: 2px solid #00aeff;
+  text-transform: uppercase;
+  position: relative;
 }
