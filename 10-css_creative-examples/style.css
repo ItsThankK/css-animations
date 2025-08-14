@@ -509,7 +509,8 @@ body {
   position: relative;
 }
 
-.pulse::before {
+.container-12 .pulse::before,
+.container-12 .pulse::after {
   content: "";
   position: absolute;
   left: -20px;
@@ -518,7 +519,11 @@ body {
   bottom: -20px;
   border: solid 1px #58ea00;
   border-radius: 50%;
-  
+  animation: puslsing 1.5s linear infinite;
+}
+
+.container-12 .pulse::after {
+  animation-delay: 0.5s;
 }
 
 @keyframes puslsing {
