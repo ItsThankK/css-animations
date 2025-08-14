@@ -8,7 +8,8 @@ body {
 .container-2,
 .container-3,
 .container-4, 
-.container-5 {
+.container-5,
+.container-6 {
   background-color: #26ed;
   height: 100vh;
   display: flex;
@@ -154,3 +155,6 @@ body {
   animation: none;
 }
 
+.container-6 ul {
+  list-style: none;
+}
