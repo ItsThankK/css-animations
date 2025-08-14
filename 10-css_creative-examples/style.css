@@ -222,6 +222,7 @@ body {
   height: 100px;
   background-color: red;
   transform: rotate(45deg);
+  animation: heartbeat 1.5s linear infinite;
 }
 
 .container-7 .heart::before {
