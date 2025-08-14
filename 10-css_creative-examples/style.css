@@ -229,27 +229,27 @@ body {
 }
 
 .container-7 .heart::before {
- content: "";
- position: absolute;
- top: 0;
- left: 0;
- width: 100%;
- height: 100%;
- background-color: red;
- transform: translateY(-50%);
- border-radius: 50%;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  transform: translateY(-50%);
+  border-radius: 50%;
 }
 
 .container-7 .heart::after {
- content: "";
- position: absolute;
- top: 0;
- left: 0;
- width: 100%;
- height: 100%;
- background-color: red;
- transform: translateX(-50%);
- border-radius: 50%;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  transform: translateX(-50%);
+  border-radius: 50%;
 }
 
 @keyframes heartbeat {
@@ -283,7 +283,7 @@ body {
   background-color: white;
   margin: 0 10px;
   border-radius: 50%;
-  animation: jumping .8s linear infinite;
+  animation: jumping 0.8s linear infinite;
 }
 
 @keyframes jumping {
@@ -315,5 +315,5 @@ body {
 }
 
 .container-9 ul {
-
+  list-style: none;
 }
