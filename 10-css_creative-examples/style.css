@@ -155,6 +155,10 @@ body {
   animation: none;
 }
 
+.container-6 {
+  background-color: #272727;
+}
+
 .container-6 ul {
   list-style: none;
 }
