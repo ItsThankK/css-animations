@@ -222,3 +222,14 @@ body {
   height: 100px;
   background-color: #ff3838;
 }
+
+.container-7 .heart::before {
+ content: "";
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ background-color: white;
+ transform: translateY(-50%);
+}
