@@ -334,3 +334,9 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.container-9 ul li i {
+  font-size: 48px;
+  color: #0a3d62;
+  transition: all .5s;
+}
