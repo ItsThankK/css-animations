@@ -507,3 +507,11 @@ body {
   font-size: 48px;
   position: relative;
 }
+
+.pulse::before {
+  content: "";
+  position: absolute;
+  left: -20px;
+  top: -20px;
+  
+}
