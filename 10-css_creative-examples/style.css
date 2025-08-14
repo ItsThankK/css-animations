@@ -188,3 +188,7 @@ body {
     text-shadow: 0 0 7px #fff900, 0 0 50px #ff6c00;
   }
 }
+
+.container-6 ul li:nth-child(1) {
+  animation-delay: 0;
+}
