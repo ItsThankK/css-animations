@@ -14,7 +14,8 @@ body {
 .container-8,
 .container-9,
 .container-10,
-.container-11 {
+.container-11,
+.container-12 {
   background-color: #26ed;
   height: 100vh;
   display: flex;
@@ -459,7 +460,8 @@ body {
   animation-delay: 1.2s;
 }
 
-.container-11 {
+.container-11,
+.container-12 {
   background-color: #222;
 }
 
@@ -491,4 +493,12 @@ body {
   width: 100%;
   height: 22px;
   background: url;
+}
+
+.container-12 .pulse {
+  width: 100px;
+  height: 100px;
+  background-color: #58ea00;
+  color: white;
+  border-radius: 50%;
 }
