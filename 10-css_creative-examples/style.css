@@ -204,12 +204,12 @@ body {
 .container-6 ul li:nth-child(5) {
   animation-delay: 0.4;
 }
-.container-6 ul li:nth-child(1) {
-  animation-delay: 0;
+.container-6 ul li:nth-child(6) {
+  animation-delay: 0.5;
 }
-.container-6 ul li:nth-child(1) {
-  animation-delay: 0;
+.container-6 ul li:nth-child(7) {
+  animation-delay: 0.6;
 }
-.container-6 ul li:nth-child(1) {
-  animation-delay: 0;
+.container-6 ul li:nth-child(8) {
+  animation-delay: 0.7;
 }
