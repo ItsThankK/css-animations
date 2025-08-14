@@ -218,5 +218,7 @@ body {
 
 .container-7 .heart {
   position: relative;
-  
+  width: 100px;
+  height: 100px;
+  background-color: #ff3838;
 }
