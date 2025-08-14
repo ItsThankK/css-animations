@@ -136,3 +136,12 @@ body {
   transform: skew(-15deg);
 }
 
+@keyframes moving {
+  from {
+    left: -120px;
+  }
+  to {
+    left: 100%;
+  }
+}
+
