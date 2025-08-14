@@ -165,3 +165,8 @@ body {
   display: flex;
   list-style: none;
 }
+
+.container-6 ul li {
+  color: #484848;
+  font-size: 80px;
+}
