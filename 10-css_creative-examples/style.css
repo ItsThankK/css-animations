@@ -98,6 +98,7 @@ body {
 .container-4 a:hover {
   border: 3px solid red;
   color: red;
+  animation: shake 1s;
 }
 
 @keyframes shake {
