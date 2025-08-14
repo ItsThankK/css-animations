@@ -39,6 +39,7 @@ body {
   height: 100px;
   background-color: white;
   border-radius: 12px;
+  animation: loading 2s linear infinite alternate;
 }
 
 @keyframes loading {
