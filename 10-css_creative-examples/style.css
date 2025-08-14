@@ -316,4 +316,10 @@ body {
 
 .container-9 ul {
   list-style: none;
+  display: flex;
+}
+
+.container-9 ul li {
+  width: 120px;
+  
 }
