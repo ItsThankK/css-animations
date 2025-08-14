@@ -33,3 +33,8 @@ body {
     transform: rotate(-5deg);
   }
 }
+
+.container-2 .loading {
+  width: 100px;
+  height: 100px;
+}
