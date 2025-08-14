@@ -75,5 +75,7 @@ body {
   0% {
     content: "transitions";
   }
-  
+  50% {
+    content: "animations";
+  }
 }
