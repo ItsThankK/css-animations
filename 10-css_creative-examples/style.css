@@ -430,3 +430,7 @@ body {
     opacity: 0;
   }
 }
+
+.container-10 ul li:nth-child(1) {
+  animation-delay: 0s;
+}
