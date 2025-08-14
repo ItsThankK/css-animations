@@ -12,7 +12,8 @@ body {
 .container-6,
 .container-7,
 .container-8,
-.container-9 {
+.container-9,
+.container-10 {
   background-color: #26ed;
   height: 100vh;
   display: flex;
@@ -165,7 +166,8 @@ body {
 }
 
 .container-6 ul,
-.container-8 ul {
+.container-8 ul,
+.container-10 {
   margin: 0;
   padding: 0;
   display: flex;
@@ -318,7 +320,8 @@ body {
   background-color: wheat;
 }
 
-.container-9 ul {
+.container-9 ul,
+.container-10 ul {
   list-style: none;
   display: flex;
 }
@@ -394,3 +397,4 @@ body {
     transform: scale(0.9) rotate(360deg);
   }
 }
+
