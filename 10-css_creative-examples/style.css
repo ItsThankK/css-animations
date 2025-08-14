@@ -171,7 +171,7 @@ body {
   color: #484848;
   font-size: 80px;
   letter-spacing: 15px;
-  
+  animation: lighting 1.4s linear infinite;
 }
 
 @keyframes lighting {
