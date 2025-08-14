@@ -334,6 +334,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 1;
 }
 
 .container-9 ul li i {
@@ -354,5 +355,10 @@ body {
   z-index: -1;
   transition: all 0.5s;
   opacity: 0;
+}
+
+.container-9 ul li:hover::before {
+  opacity: 1;
+  transform: scale(0.8);
 }
 
