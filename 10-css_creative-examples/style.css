@@ -4,7 +4,8 @@ body {
   gap: 50px;
 }
 
-.container-1 {
+.container-1,
+.container-2 {
   background-color: #26ed;
   height: 100vh;
   display: flex;
