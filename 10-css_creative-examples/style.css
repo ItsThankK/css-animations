@@ -513,5 +513,8 @@ body {
   position: absolute;
   left: -20px;
   top: -20px;
-  
+  right: -20px;
+  bottom: -20px;
+  border: solid 1px #58ea00;
+  border-radius: 50%;
 }
