@@ -482,3 +482,10 @@ body {
   top: 100%;
   background-color: red;
 }
+
+.container-11 .wave::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+}
