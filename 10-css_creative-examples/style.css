@@ -122,6 +122,7 @@ body {
 .container-5 a {
   position: relative;
   z-index: 1;
+  overflow: hidden;
 }
 
 .container-5 a::before {
