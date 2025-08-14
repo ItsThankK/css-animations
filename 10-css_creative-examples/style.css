@@ -42,5 +42,11 @@ body {
 }
 
 @keyframes loading {
-  
+  0% {
+    transform: rotate(0deg, 0deg);
+  }
+  50% {
+    
+  }
+  100% {}
 }
