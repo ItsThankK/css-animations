@@ -408,5 +408,7 @@ body {
 }
 
 @keyframes loading-text {
-  
+  0% {
+    color: red;
+  }
 }
