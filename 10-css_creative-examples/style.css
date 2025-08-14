@@ -65,12 +65,15 @@ body {
 }
 
 .container-3 span::before {
-  content: "TRANSITIONS";
+  content: "";
   text-transform: uppercase;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   color: wheat;
 }
 
 @keyframes word-switch {
+  0% {
+    content: "transitions";
+  }
   
 }
