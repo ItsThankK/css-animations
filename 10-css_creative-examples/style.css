@@ -34,6 +34,10 @@ body {
   }
 }
 
+.container-2 {
+  perspective: 1000px;
+}
+
 .container-2 .loading {
   width: 100px;
   height: 100px;
@@ -44,12 +48,12 @@ body {
 
 @keyframes loading {
   0% {
-    transform: rotate(0deg, 0deg);
+    transform: rotateX(0) rotateY(0);
   }
   50% {
-    transform: rotate(0deg, 180deg);
+    transform: rotateX(0deg) rotateY(180deg);
   }
   100% {
-    transform: rotate(180deg, 180deg);
+    transform: rotateX(180deg) rotateY(180deg);
   }
 }
