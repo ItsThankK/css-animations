@@ -115,8 +115,13 @@ body {
   }
 }
 
+.container-5 {
+  background-color: #222;
+}
+
 .container-5 a {
   position: relative;
+  z-index: 1;
 }
 
 .container-5 a::before {
@@ -125,6 +130,8 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  height: 110%;
+  height: 100%;
   width: 120px;
+  z-index: -1;
 }
+
