@@ -9,7 +9,8 @@ body {
 .container-3,
 .container-4, 
 .container-5,
-.container-6 {
+.container-6,
+.container-7 {
   background-color: #26ed;
   height: 100vh;
   display: flex;
