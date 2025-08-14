@@ -362,3 +362,6 @@ body {
   transform: scale(0.8);
 }
 
+.container-9 ul li:hover i {
+  color: white;
+}
