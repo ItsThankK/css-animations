@@ -174,5 +174,8 @@ body {
 }
 
 @keyframes lighting {
+  0% {
+    color: #484848;
+  }
   
 }
