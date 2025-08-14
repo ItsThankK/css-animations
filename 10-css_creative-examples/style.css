@@ -400,11 +400,13 @@ body {
 
 .container-10 {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: aliceblue;
 }
 
 .container-10 ul li {
   font-size: 80px;
   letter-spacing: 20px;
+  animation: loading-text 3s linear infinite alternate;
 }
 
 @keyframes loading-text {
