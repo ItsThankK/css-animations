@@ -67,4 +67,5 @@ body {
 .container-3 span::before {
   content: "TRANSITIONS";
   text-transform: uppercase;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
