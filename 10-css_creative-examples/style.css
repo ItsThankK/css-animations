@@ -134,6 +134,7 @@ body {
   width: 120px;
   z-index: -1;
   transform: skew(-15deg);
+  animation: moving 2s linear infinite alternate;
 }
 
 @keyframes moving {
