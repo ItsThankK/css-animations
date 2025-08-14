@@ -23,5 +23,7 @@ body {
 }
 
 @keyframes float {
-  
+  from {
+    transform: rotate(5deg);
+  }
 }
