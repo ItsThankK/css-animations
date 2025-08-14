@@ -247,3 +247,11 @@ body {
  transform: translateX(-50%);
  border-radius: 50%;
 }
+
+@keyframes heartbeat {
+  0% {
+    transform: rotate(45deg) scale(1);
+  }
+  0% {}
+  0% {}
+}
