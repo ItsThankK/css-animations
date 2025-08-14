@@ -195,8 +195,8 @@ body {
 .container-6 ul li:nth-child(2) {
   animation-delay: 0.1;
 }
-.container-6 ul li:nth-child(1) {
-  animation-delay: 0;
+.container-6 ul li:nth-child(3) {
+  animation-delay: 0.2;
 }
 .container-6 ul li:nth-child(1) {
   animation-delay: 0;
