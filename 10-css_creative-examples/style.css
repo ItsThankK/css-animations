@@ -23,7 +23,8 @@ body {
 .container-17,
 .container-18,
 .container-19,
-.container-20 {
+.container-20,
+.container-21 {
   background-color: #26ed;
   height: 100vh;
   display: flex;
@@ -1057,3 +1058,6 @@ body {
   }
 }
 
+.loader-loader {
+  
+}
