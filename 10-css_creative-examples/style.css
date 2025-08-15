@@ -860,3 +860,11 @@ body {
   background-color: #0a3d62;
 }
 
+.loader-squares {
+  position: relative;
+  width: 90px;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
