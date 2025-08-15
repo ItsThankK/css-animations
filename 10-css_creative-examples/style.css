@@ -802,3 +802,12 @@ body {
   background-color: #272727;
 }
 
+.loading- {
+  display: flex;
+}
+
+.loading- .obj {
+  width: 6px;
+  height: 40px;
+  background-color: white;
+}
