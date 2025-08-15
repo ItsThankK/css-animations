@@ -1079,7 +1079,7 @@ body {
   height: 100%;
   border-radius: 50%;
   border: 2px solid white;
-  animation: rotate-circles 2s linear infinite;
+  animation: rotate-circles 5s linear infinite;
 }
 
 .loader-loader span:nth-child(1) {
@@ -1088,10 +1088,12 @@ body {
 
 .loader-loader span:nth-child(2) {
   border-radius: 64% 36% 43% 57% / 68% 66% 34% 32%;
+  animation-direction: reverse;
 }
 
 .loader-loader span:nth-child(3) {
   border-radius: 43% 58% 52% 48% / 72% 31% 69% 28%;
+  animation-duration: 3s;
 }
 
 @keyframes rotate-circles {
@@ -1102,3 +1104,6 @@ body {
     transform: rotate(360deg);
   }
 }
+
+
+
