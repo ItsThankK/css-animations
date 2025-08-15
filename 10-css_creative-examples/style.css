@@ -650,5 +650,16 @@ body {
 }
 
 @keyframes animate-div {
-  
+  0% {
+    width: 100px;
+    height: 100px;
+  }
+  10% {
+    width: 100px;
+    height: 100px;
+  }
+  50% {
+    width: 150px;
+    height: 150px;
+  }
 }
