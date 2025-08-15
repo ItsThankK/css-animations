@@ -946,4 +946,14 @@ body {
   transform: rotate(-60deg);
 }
 
-
+@keyframes animate-hexagon {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: 100%;
+  }
+  100% {
+    left: 0;
+  }
+}
