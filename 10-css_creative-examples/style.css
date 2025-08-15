@@ -662,4 +662,8 @@ body {
     width: 150px;
     height: 150px;
   }
+  90% {
+    width: 100px;
+    height: 100px;
+  }
 }
