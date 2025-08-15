@@ -782,4 +782,7 @@ body {
   height: 100%;
   text-align: center;
   line-height: 200px;
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
