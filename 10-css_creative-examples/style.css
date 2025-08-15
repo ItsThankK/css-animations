@@ -1027,4 +1027,6 @@ body {
   right: 5px;
   bottom: 5px;
   background: linear-gradient(45deg, gold, blue, silver);
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
