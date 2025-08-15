@@ -913,6 +913,7 @@ body {
   width: 300px;
   border-bottom: 4px solid white;
   position: relative;
+  animation: animate-line 4s linear infinite;
 }
 
 .hexagon {
@@ -922,7 +923,7 @@ body {
   width: 50px;
   height: 30px;
   background-color: white;
-  animation: animate-hexagon 2s linear infinite;
+  animation: animate-hexagon 4s linear infinite;
 }
 
 .hexagon::before {
