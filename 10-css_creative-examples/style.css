@@ -618,12 +618,14 @@ body {
   height: 100px;
   position: relative;
   animation: animate-div 1s linear infinite;
+  transform: rotate(45deg);
 }
 
 .div-container span {
   position: absolute;
   width: 50px;
   height: 50px;
+  animation: rotate-box 1s linear infinite;
 }
 
 .div-container span:nth-child(1) {
@@ -670,5 +672,23 @@ body {
   100% {
     width: 100px;
     height: 100px;
+  }
+}
+
+@keyframes rotate-box {
+  0% {
+    transform: rotate(0);
+  }
+  10% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(90deg);
+  }
+  90% {
+    transform: rotate(90deg);
+  }
+  100% {
+    transform: rotate(90deg);
   }
 }
