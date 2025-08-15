@@ -547,6 +547,11 @@ body {
   background-color: #58ea00;
 }
 
+.container-13 .cradle {
+  display: flex;
+  gap: 10px;
+}
+
 .container-13 .cradle span {
   display: block;
   width: 3px;
