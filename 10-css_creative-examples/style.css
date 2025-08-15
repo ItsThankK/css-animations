@@ -1008,6 +1008,7 @@ body {
   transform: translateX(-50%);
   top: -15px;
   box-shadow: 0 15px 0 #222;
+  z-index: 20;
 }
 
 .glass .inner::after {
@@ -1029,6 +1030,7 @@ body {
   background: linear-gradient(45deg, gold, blue, silver);
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
+  animation: animate-liquid 5s linear infinite;
 }
 
 .liquid::before {
@@ -1048,7 +1050,7 @@ body {
   }
   50%,
   70% {
-    top: 320px;
+    top: 370px;
   }
   100% {
     top: 50px;
