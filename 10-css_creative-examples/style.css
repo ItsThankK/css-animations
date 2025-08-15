@@ -953,6 +953,7 @@ body {
   }
   50% {
     left: calc(100% - 50px);
+    transform: rotate(360deg);
   }
   100% {
     left: 0;
