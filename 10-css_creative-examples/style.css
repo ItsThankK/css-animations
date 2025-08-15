@@ -553,14 +553,21 @@ body {
 }
 
 .container-13 .cradle span {
+  position: relative;
   display: block;
   width: 3px;
   height: 300px;
   background-color: white;
   margin: 0 30px;
-  position: relative;
 }
 
 .container-13 .cradle span::before {
+  content: "";
   position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: white;
 }
