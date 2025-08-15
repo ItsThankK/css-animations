@@ -21,7 +21,8 @@ body {
 .container-15,
 .container-16,
 .container-17,
-.container-18 {
+.container-18,
+.container-19 {
   background-color: #26ed;
   height: 100vh;
   display: flex;
@@ -906,4 +907,10 @@ body {
 .loader-squares span:nth-child(8)::before,
 .loader-squares span:nth-child(9)::before {
   animation-delay: 0.1s;
+}
+
+.line {
+  width: 300px;
+  border-bottom: 4px solid white;
+  position: relative;
 }
