@@ -617,6 +617,7 @@ body {
   width: 100px;
   height: 100px;
   position: relative;
+  animation: animate-div 1s linear infinite;
 }
 
 .div-container span {
