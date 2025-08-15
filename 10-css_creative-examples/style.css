@@ -1092,3 +1092,12 @@ body {
 .loader-loader span:nth-child(3) {
   border-radius: 43% 58% 52% 48% / 72% 31% 69% 28%;
 }
+
+@keyframes rotate-circles {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
