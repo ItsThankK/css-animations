@@ -616,7 +616,6 @@ body {
 .div-container {
   width: 100px;
   height: 100px;
-  background-color: red;
   position: relative;
 }
 
@@ -648,4 +647,8 @@ body {
   bottom: 0;
   right: 0;
   background-color: blue;
+}
+
+@keyframes animate-div {
+  
 }
