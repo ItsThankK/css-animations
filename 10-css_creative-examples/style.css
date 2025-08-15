@@ -18,7 +18,8 @@ body {
 .container-12,
 .container-13,
 .container-14,
-.container-15 {
+.container-15,
+.container-16 {
   background-color: #26ed;
   height: 100vh;
   display: flex;
@@ -754,4 +755,18 @@ body {
     top: 0;
     left: 0;
   }
+}
+
+.container-16 {
+  background-color: wheat;
+}
+
+.container-16 .container-loading {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+.container-loading .ring {
+  
 }
