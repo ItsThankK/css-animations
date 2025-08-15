@@ -1058,6 +1058,15 @@ body {
   }
 }
 
+.container-21 {
+  background-color: #222;
+}
+
 .loader-loader {
-  
+  position: relative;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
