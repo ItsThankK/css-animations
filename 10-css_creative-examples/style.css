@@ -20,7 +20,8 @@ body {
 .container-14,
 .container-15,
 .container-16,
-.container-17 {
+.container-17,
+.container-18 {
   background-color: #26ed;
   height: 100vh;
   display: flex;
@@ -854,3 +855,8 @@ body {
 .loading- .obj:nth-child(8) {
   animation-delay: 0.7s;
 }
+
+.container-18 {
+  background-color: #0a3d62;
+}
+
