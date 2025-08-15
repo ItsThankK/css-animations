@@ -1079,6 +1079,7 @@ body {
   height: 100%;
   border-radius: 50%;
   border: 2px solid white;
+  animation: rotate-circles 2s linear infinite;
 }
 
 .loader-loader span:nth-child(1) {
