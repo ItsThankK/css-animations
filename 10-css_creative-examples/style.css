@@ -1040,3 +1040,17 @@ body {
   background: linear-gradient(45deg, gold, blue, silver);
   top: -10px;
 }
+
+@keyframes animate-liquid {
+  0%,
+  20% {
+    top: 50px;
+  }
+  50%,
+  70% {
+    top: 320px;
+  }
+  100% {
+    top: 50px;
+  }
+}
