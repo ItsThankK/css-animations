@@ -772,6 +772,7 @@ body {
   height: 100%;
   border-left: 4px solid #262626;
   border-radius: 50%;
+  animation: rotate-loading 2s linear infinite;
 }
 
 .container-loading .text {
@@ -785,4 +786,13 @@ body {
   font-size: 22px;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+@keyframes rotate-loading {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
