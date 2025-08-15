@@ -959,3 +959,21 @@ body {
     left: 0;
   }
 }
+
+@keyframes animate-line {
+  0% {
+    transform: rotate(30deg);
+  }
+  25% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(-30deg);
+  }
+  75% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(30deg);
+  }
+}
