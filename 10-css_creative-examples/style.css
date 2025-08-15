@@ -1019,3 +1019,12 @@ body {
   height: 250px;
   background: rgba(255, 255, 255, 0.05);
 }
+
+.liquid {
+  position: absolute;
+  top: 50px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  background: linear-gradient(45deg, gold, blue, silver);
+}
