@@ -22,3 +22,7 @@ body {
 .container-1 .img-1 {
   clip-path: polygon(50% 0, 100% 100%, 0 100%);
 }
+
+.container-1 .img-2 {
+  clip-path: circle(50% at 50% 50%);
+}
