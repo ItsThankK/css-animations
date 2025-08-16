@@ -218,3 +218,21 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.container-4 section .box2 {
+  background: #0000ff;
+  color: #ffffff;
+  clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%)
+}
+
+.container-4 section .box h2 {
+  font-size: 50px;
+  display: flex;
+  flex-direction: column;
+  transform: translateY(-70%);
+}
+
+.container-4 section .box1 {
+  background-color: #eef0f3;
+  color: #0a0b0d;
+}
