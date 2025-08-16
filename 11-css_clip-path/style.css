@@ -49,3 +49,7 @@ body {
 .container-1 .img-5 {
   clip-path: polygon(50% 9%, 90% 40%, 100% 100%, 20% 46%);
 }
+
+.container-1 .img-6 {
+  clip-path: polygon(66% 38%, 79% 61%, 79% 61%, 43% 39%, 16% 83%);
+}
