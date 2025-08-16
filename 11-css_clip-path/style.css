@@ -125,6 +125,7 @@ body {
 .container-3 ul li {
   position: relative;
   margin: 10px 0px;
+  overflow: hidden;
 }
 
 .container-3 ul li a {
@@ -139,6 +140,7 @@ body {
   font-weight: 900;
   text-align: center;
   color: transparent;
+  overflow: hidden;
 }
 
 .container-3 ul li a::before {
@@ -151,6 +153,7 @@ body {
   color: #262626;
   box-sizing: border-box;
   transition: 0.5s;
+  transition-delay: 0.25s;
   clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
 }
 
@@ -164,6 +167,7 @@ body {
   color: #262626;
   box-sizing: border-box;
   transition: 0.5s;
+  transition-delay: 0.25s;
   clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0 100%);
 }
 
@@ -186,7 +190,7 @@ body {
   height: 1px;
   background-color: #262626;
   transform: translateY(-50%);
-  transition: all 0.1s;
+  transition: all 0.3s;
 }
 
 .container-3 ul li:hover::before {
