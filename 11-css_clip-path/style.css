@@ -2,10 +2,19 @@ body {
   background-color: #26ed;
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 50px;
 }
 
 .container-1 {
   display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.container-1 img {
+  width: 270px;
+  height: 270px;
 }
