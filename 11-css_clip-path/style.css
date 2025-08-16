@@ -2,6 +2,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 50px;
+  font-family: sans-serif;
 }
 
 .container-1 {
@@ -67,4 +68,15 @@ body {
   text-align: center;
   line-height: 60px;
   position: relative;
+}
+
+.container-2 .loader span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 48px;
+  text-transform: uppercase;
+  font-weight: 600;
 }
