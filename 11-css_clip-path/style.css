@@ -167,8 +167,12 @@ body {
   clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0 100%)
 }
 
-
 .container-3 ul li a:hover::before {
   transform: translate(10px, -3px);
+  color: rgba(160, 0, 0);
+}
+
+.container-3 ul li a:hover::after {
+  transform: translate(-10px, 3px);
   color: rgba(160, 0, 0);
 }
