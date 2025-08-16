@@ -80,3 +80,8 @@ body {
   text-transform: uppercase;
   font-weight: 600;
 }
+
+.top-half {
+  color: #ee5253;
+  clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
+}
