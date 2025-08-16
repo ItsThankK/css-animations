@@ -18,3 +18,7 @@ body {
   width: 270px;
   height: 270px;
 }
+
+.container-1 .img-1 {
+  clip-path: polygon(50% 0, 100% 100%, 0 100%);
+}
