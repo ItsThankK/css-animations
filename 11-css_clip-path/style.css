@@ -213,7 +213,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%; 
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -222,17 +222,45 @@ body {
 .container-4 section .box2 {
   background: #0000ff;
   color: #ffffff;
-  clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%)
+  clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
 }
 
 .container-4 section .box h2 {
   font-size: 50px;
   display: flex;
   flex-direction: column;
-  transform: translateY(-70%);
+  text-transform: uppercase;
+  animation: animate-based 2s linear infinite;
 }
 
 .container-4 section .box1 {
   background-color: #eef0f3;
   color: #0a0b0d;
+}
+
+.container-4 section .box1 h2 {
+  width: 446px;
+}
+
+.container-4 section .box2 span:first-child {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 5%;
+  background-color: white;
+}
+
+@keyframes animate-based {
+  0%,
+  45% {
+    transform: translateY(-70%);
+  }
+
+  55%,
+  90% {
+    transform: translateY(70%);
+  }
+  100% {
+    transform: translateY(-70%);
+  }
 }
