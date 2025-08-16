@@ -121,3 +121,7 @@ body {
   padding: 0;
   list-style: none;
 }
+
+.container-3 ul li a {
+    text-decoration: none;
+}
